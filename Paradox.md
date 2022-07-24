@@ -9,7 +9,12 @@
 
 <p align="justify">In computing, a process is the instance of a computer program that is being executed by one or many threads. It contains the program code and its activity. Depending on the operating system (OS), a process may be made up of multiple threads of execution that execute instructions concurrently. In Paradox the imput-process-output concept is utilized on top of dataflow programming.</p>
 
-<p align="justify">In programming we have sequential flow and data flow methods that helps dermine the flow of the program. In sequential flow the functiona are performed in steps, an action must be triggered for the program to start; it is the traditional way of doing programming. In dataflow progamming applications are represented as a set of nodes (also called blocks) with input and/or output ports in them. It introduces a new programming paradigm that internally represents applications as a directed graph, similarly to a dataflow diagram.</p>
+<p align="justify">In programming we have sequential flow and data flow methods that helps dermine the flow of the program. In sequential flow the functiona are performed in steps, an action must be triggered for the program to start; it is the traditional way of doing programming. In dataflow progamming applications are represented as a set of nodes (also called blocks) with input and/or output ports in them. It introduces a new programming paradigm that internally represents applications as a directed graph, similarly to a dataflow diagram. Below we have the examples of sequential flow and dataflow programming that can be done in Paradox.</p>
+
+![sequential flow programming](images/sequential-flow.jpg) Sequential Flow
+
+![Data-flow Programming](images/data-flow-eg.jpg) Data Flow
+
 
 <p align="justify">
 The key benefit of Dataflow programming is that, in dataflow, more than one instruction can be executed at once. Thus, if several instructions be- come fire able at the same time, they can be executed in parallel. This simple principle provides the potential for massive parallel execution at the instruction level.</p>
@@ -19,12 +24,6 @@ DFP has enabled many visual programming languages that provide a more user-frien
 
 
 <p align="justify">Paradox utilizes dataflow programming in Json formating so it is easy to use and mostly errorfree.</p>
-
-![Data-flow Programming]()
-
-![sequential flow programming]()
-
-
 
 ## Features of Paradox
 1. ### [Create clear and pretty flows](#Create-clear-and-pretty-flows)
@@ -43,6 +42,7 @@ DFP has enabled many visual programming languages that provide a more user-frien
 ### Create clear and pretty flows
 <p align="justify">Visual Scripting is a huge part of Paradox. Paradox uses blocks and nodes that help in creating clear and pretty flow. It makes it easy to follow, easy to script for rookie programmer and experienced programmers alike.</p>
 
+![Feature](images/feature-1.jpg)
 ### Built-In Interpreter 
 <p align="justify">Paradox uses the built-in REPL through which you can have access to the backend session and you can use its whole API as well as access your nodes. Any modifications like creating/renaming/deleting new scripts, will reactively be processed by the frontend automatically, so you can really do everything from the console.</p>
 
@@ -51,6 +51,8 @@ DFP has enabled many visual programming languages that provide a more user-frien
 
 ### Source Code Access
 <p align="justify">In Paradox you can access the Source code implementation of the nodes you use inside the editor. You can view and edit the source code as you and the result of the change change can be viewed in real time. </p>
+
+![Source code access](images/source-code.jpg)
 
 ### Stylus support
 <p align="justify">Paradox supports stylus, you can write notes into your flows by hand using a stylus pen. One effective use of this feature is that it supports clarity and adds a whole new dimension to your visual flows.</p>
@@ -73,12 +75,13 @@ DFP has enabled many visual programming languages that provide a more user-frien
 ### Multiple Extension
 <p align="justify">Paradox has multiple extensions for you to use, like nodes, numpy, PyQt5, PySide2, Resources, ryvencore_qt. These extension helps you to enhance you're experience with Paradox.</p>
 
-
 ## Block
 <p align="justify">Paradox contains every Python feature in the form of blocks. These blocks are appear by right clicking the mouse.</p>
 
  1. And
     <p align="justify">This block is Python's and operator which allows you to construct compound Boolean expressions that you can use to decide the course of action of your programs. It returns True if both statements are true</p>
+
+    ![and](images/and.jpg)
  1. Branch
     <p align="justify">Branch block is used to   change the normal flow of execution based on some condition.</p>
  1. Button
@@ -108,6 +111,7 @@ DFP has enabled many visual programming languages that provide a more user-frien
  1. herm
     <p align="justify">This block allows you to compute the hermatian matrix.</p>
  1. ID Matrix
+    <p align="justify">This block allows you to create an identity matrix.</p>
  1. Imag 
     <p align="justify">This block allows you to extract the imaginary part of the matrixes</p>
  1. Inner
@@ -128,16 +132,24 @@ DFP has enabled many visual programming languages that provide a more user-frien
     <p align="justify">This block allows you to multiply matrixes.</p>
  1. nand
     <p align="justify">The 'NAND' gate is a combination of 'AND' gate followed by 'NOT' gate. helps to create boolean expression</p>
+
+    ![nand](images/nand.jpg)
  1. nor
     <p align="justify">The NOR gate (negated OR) gives an output of 1 if both inputs are 0,it gives 0 otherwise. </p>
+
+    ![nor](images/nor.jpg)
  1. not
     <p align="justify">The 'not' is a Logical operator in Python that will return True if the expression is False. </p>
+
+    ![not](images/not.jpg)
  1. Null
     <p align="justify">This block creates null matrix.</p>
  1. Ones
     <p align="justify">This block returns a new array of given shape and data type, where the element's value is set to 1. </p>
  1. or
     <p align="justify">This block helps create boolean expression that returns True if one of the statements is true</p>
+
+    ![or](images/or.jpg)
  1. Power
     <p align="justify">This block allows you to assign power to matrix.</p>
  1. Print
@@ -148,6 +160,8 @@ DFP has enabled many visual programming languages that provide a more user-frien
     <p align="justify">This blck allows you to extract the real part of the matrix.</p>
  1. result
     <p align="justify">This block allows you to view the output that you get from you progrsm.</p>
+
+    ![result](images/val-and-result-block.jpg)
  1. set var
     <p align="justify">This block allows you to set variables.</p>
  1. set vars passive
@@ -166,12 +180,18 @@ DFP has enabled many visual programming languages that provide a more user-frien
     <p align="justify">This function permutes or reserves the dimension of the given array and returns the modified array. </p>
  1. val
     <p align="justify">This block allows you to input the value in your program.</p>
+
+    ![value](images/val-and-result-block.jpg)
  1. while
     <p align="justify">This block helps set while loop where you can execute a set of statements as long as a condition is true.</p>
 1. xnor
     <p align="justify">The XNOR gate (negated XOR) gives an output of 1 both inputs are same and 0 if both are different.</p>
+
+    ![xnor](images/xnor.jpg)
  1. xor
     <p align="justify">This block returns 1 if one of the bits is 1 and the other is 0 else returns false.</p>
+
+    ![xor](images/xor.jpg)
  ## Theme
  <p align="justify">Paradox consists of multiple themes that you can work with, themes like toy tron ghost blender simple, ueli pure dark colorful dark industrial light.</p>
 
