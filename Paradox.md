@@ -113,6 +113,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
     <p align="justify">This block provides you space where you can code normaly and get the result in the terminal at the bottom of the screen and assign the input and output of a variable.</p>
  1. Clock
     <p align="justify">This block helps to set the number of iteration and the delay in result, it consists of a button which needs to be clicked in order to trigger the action.</p>
+
+    ![clock](images/clock.jpg)
   1. Print
       <p align="justify">This block prints the specified message to the screen, or other standard output device.</p>
 
@@ -125,13 +127,16 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
     ![and](images/and.jpg)
  1. IF ELSE
     <p align="justify">This block allows you to work with an if else condition where the statement executes only if the test condition is True</p>
+
+    ![if else](images/if-else.jpg)
  1. Button
     <p align="justify">Button block is used to trigger an action.</p>
 
     ![button](images/for-button.jpg)
  1. CheckPoint
     <p align="justify">Checkpoint block is used to connect multiple branch and flows withing the program.</p>
- 
+
+ ![checkpoint](images/checkpoint.jpg)
  1. Conjugate
     <p align="justify">Conjugate block helps the user to conjugate any matrix. </p>
 
@@ -175,10 +180,16 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
     <p align="justify">This block allows you to compute the product of two arrays.</p>
  1. link IN
     <p align="justify">This block broadcast the value, the code from this block needs to be pasted in the link OUT block for them to be connected and once connected you will be able to broadcast the value.</p>
+
+    ![link in](images/link-in.jpg)
  1. link OUT
     <p align="justify">This block listens the value broadcasted by the link IN block. You need to copy the link from link in and paste it here for the values to be linked together and you will be able to listen to the bradcasted value.</p>
+
+    ![link out](images/link-out.png)
  1. log
     <p align="justify">This block returns the natural logarithm of a number, or the logarithm of number to base.</p>
+
+    ![log](images/log.jpg)
  1. Matrix
     <p align="justify">This block allows you to create matrixes.</p>
 
@@ -240,6 +251,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
     ![sqrt](images/sqrt.jpg)
  1. store
     <p align="justify">This block allows you to sequentially store all the data provided at input in an array. A copy of the input is provided at the output.</p>
+
+    ![store](images/store.jpg)
  1. transpose
     <p align="justify">This function permutes or reserves the dimension of the given array and returns the modified array. </p>
 
@@ -278,27 +291,107 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  <p align="justify">A macro is a compile-time function that transforms a part of the program to allow functionality that cannot be expressed cleanly in normal library code. Paradox includes a macro option where you can create your custom functions/blocks. Input and output are indexed according to list,You can add parameters, inputs, outputs. 
  </p>
 
+ ![macro](images/macro1.jpg)
+ ![macro](images/macro2.jpg)
  ## Extention
  ### OpenCV
  <p align="justify">OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Paradox has implemented OpenCV which can be used to edit and customize images as you desire. </p>
 
   1. Read Image
       <p align="justify">This block alows you too read image you want to display.</p>
+
+      ![read image](images/read-display-image.png)
   1. display image
       <p align="justify">This block allows you to display the image, you have to connect this block with the read image block.</p>
+
+      ![display image](images/read-display-image.png)
   1. adjust brightness
       <p align="juastify">This block allows you to adjust the brightness of the image as you want.</p>
+
+      ![adjust brigthness](images/adjust-brightness.png)
   1. blur
       <p align="justify">This block allows you to blur the image.</p>
   1. resize
       <p align="justify">This block allows you to change the size of the image.</p>
+
+      ![resize](images/resize.png)
   1. scale
       <p align="justify">This block allows you to scale the image; you can resize the details of the image.</p>
   1. save image
-      <p align="justify">This block allows you to save the image that you have made all the changes to.</p>
+      <p align="justify">This block allows you to save the image that you have made all the changes to. you have to give file name and extenssion of the image.</p>
+
+      ![save image](images/save-image.png)
   1. put text
       <p align="justify">This block allows you to put your desired text over the image.</p>
   1. histogram
       <p align="justify">This block allows you to plot a graph by taking the image properties.</p>
+ 1. Filter 2D
+      <p align="justify">This block filters out the rgb value of the image.</p>
+
+      ![filter 2D](images/filter-2D.png)
+ 1. convert colour
+      <p align="justify">This block converts the colours of the picture from one clor space to another.</p>
+
+      ![convert color](images/convert-color.png)
+ 1. Rectangle
+      <p align="justify">This block highlights specific size colour orientation of image.
+ 1. Threshold mask
+      <p align="justify">This block masks the image.</p>
+ 1. Circle
+      <p align="justify">This block highlights specific size colour orientation of image. </p>
+      
+      ![circle](images/circle.png)
+ 1. Threshold otsu
+      <p align="justify"> This block uses Otsu algorithm to choose the optimal threshold value. The Otsu algorithm automatically calculates the optimal threshold to separate the two peaks by maximizing the variance between the two types of pixels .</p>
+
+      ![threshold otsu](images/threshold-otsu.png)
+ 1. bilatral filter
+      <p align="justify">This block allows you to remoe the noise from the image and helps smooth out the image.</p>
+
+      ![bilateral filter](images/Bilateral-filter.png)
+ 1. Threshold trunc
+      <p align="justify">When pixel intensity becomes greater than threshold value it will be truncated to threshold. After this the pixel values should be set to the value which will be same as threshold value and other values will be the same.</p>
+
+      ![threshold trunc](images/threshold-trunc.png)
+ 1. haris corner detection 
+      <p align="justify">Corners are regions in the image with large variation in intensity in all the directions, this block helps you find tham.</p>
+ 1. Threshold adaptive mean
+      <p align="justify"> The threshold value is the mean of the neighbourhood area minus the constant C</p>
+
+      ![threshold adaptive mean](images/threshold-adaptive-mean.png)
+ 1. image blend   
+      <p>This block helps you to combine images togerther.</p>
+ 1. Threshold to zero
+      <p align="justify">All pixels having values less than threshold, the pixel intensity for these is set to zero.</p>
+
+      ![threshold to zero](images/threshold-to-zero.png)
+ 1. Threshold triangle
+      <p align="justify">this uses Triangle algorithm to choose the optimal threshold value.</p>
+
+      ![threshold triangle](images/theshold-triangle.png)
+ 1. Threshold binary inv
+      <p align="justify">In this case the intensity of pixels will be the inverse of THRESH_BINARY. That is 0 when pixel value is less than threshold else it will be white.</p>
+
+      ![threshold binary inv](images/threshold-binary-inv.png)
+ ### Scikit learn
+ <p align="justify">Scikit-learn is a free software machine learning library for the Python programming language. In general, the learning problem considers a set of n samples of data and then tries to predict properties of unknown data.</p>
+
+ 1. Logistic Model
+      <p align="justify">Logistic regression classifies binary and multiclass values and helps in predicting the results.</p>
+ 1. Regression Model
+      <p align="justify">Regression model predicts numerical value prediction linear equation. </p>
+ 1. Choose Data
+      <p align="justify">This block allows you to choose data, this includes a drop down menu where you can find built in data that are available in Paradox as well as choose different that of your choice.</p>
+ 1. Read CSV
+      <p align="justify">This block allows you to read the CSV file.</p>
+ 1. Predict
+      <p align="justify">This block helps you predict the result from the data that has been provided. </p>
+ 1. Read Folder
+      <p align="justify">This block allows you to read the files that you want to predict.</p>
+ 
+
+ ### Tensorflow
+
+ ### Numpy
 
  
