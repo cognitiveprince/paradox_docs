@@ -111,14 +111,6 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
  1. Code
     <p align="justify">This block provides you space where you can code normaly and get the result in the terminal at the bottom of the screen and assign the input and output of a variable.</p>
- 1. Clock
-    <p align="justify">This block helps to set the number of iteration and the delay in result, it consists of a button which needs to be clicked in order to trigger the action.</p>
-
-    ![clock](images/clock.jpg)
-  1. Print
-      <p align="justify">This block prints the specified message to the screen, or other standard output device.</p>
-
-      ![print](images/print.jpg)
  
 ### System Block
  1. And
@@ -136,6 +128,13 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. CheckPoint
     <p align="justify">Checkpoint block is used to connect multiple branch and flows withing the program.</p>
 
+    ![checkpoint](images/checkpoint.jpg)
+
+ 1. Clock
+    <p align="justify">This block helps to set the number of iteration and the delay in result, it consists of a button which needs to be clicked in order to trigger the action.</p>
+
+    ![clock](images/clock.jpg)
+
  ![checkpoint](images/checkpoint.jpg)
  1. Conjugate
     <p align="justify">Conjugate block helps the user to conjugate any matrix. </p>
@@ -147,6 +146,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
     ![determinant](images/determinant.jpg)
  1. Do while
     <p align="justify">The do while block helps ceates do while loop where the condition is checked after executing the statement so the code is run atleat one time.</p>
+
+    ![do while](images/do-while.jpg)
  1. Dot Product
     <p align="justify">The Dot Product block returns a dot product of two matrixes. </p>
 
@@ -225,6 +226,11 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. Power
     <p align="justify">This block allows you to assign power to matrix.</p>
 
+ 1. Print
+      <p align="justify">This block prints the specified message to the screen, or other standard output device.</p>
+
+      ![print](images/print.jpg)
+
  1. Rand
     <p align="justify">This block creates a matrix with random values from 0 to 1. </p>
  1. Real
@@ -258,6 +264,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
  1. while
     <p align="justify">This block helps set while loop where you can execute a set of statements as long as a condition is true.</p>
+
+    ![while](images/while.jpg)
 1. xnor
     <p align="justify">The XNOR gate (negated XOR) gives an output of 1 both inputs are same and 0 if both are different.</p>
 
@@ -278,6 +286,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
  ## Variable
  <p align="justify">At the right side of the Paradox UI there is a variable panel where you can initialize variables and also set the values.</p>
+
+ ![variables](images/variables.jpg)
 
  ## Log
  <p align="justify">Log is the section at the bottom of Paradox, you can get to this interface by pullig the bottom tab upward; this consists of global and error sections. Global shows the variables in the script if assigned and errors as the name suggests shows the error but with paradox errors are very unlikely to happen.</p>
@@ -301,97 +311,154 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
       <p align="justify">This block alows you too read image you want to display.</p>
 
       ![read image](images/read-display-image.png)
-  1. display image
-      <p align="justify">This block allows you to display the image, you have to connect this block with the read image block.</p>
+  1. Display image
+      <p align="justify">This block allows you to display the image, you have to connect this block with the read image block. this block take the path of the image as a parameter.</p>
 
       ![display image](images/read-display-image.png)
-  1. adjust brightness
-      <p align="juastify">This block allows you to adjust the brightness of the image as you want.</p>
+  1. Adjust brightness
+      <p align="juastify">This block allows you to adjust the brightness of the image as you want.by giving parameters as alpha and beta</p>
 
       ![adjust brigthness](images/adjust-brightness.png)
-  1. blur
-      <p align="justify">This block allows you to blur the image.</p>
-  1. resize
+  1. Blur
+      <p align="justify">This block allows you to blur the image. size, saturation of blur</p>
+  1. Resize
       <p align="justify">This block allows you to change the size of the image.</p>
 
       ![resize](images/resize.png)
-  1. scale
-      <p align="justify">This block allows you to scale the image; you can resize the details of the image.</p>
-  1. save image
+  1. Scale
+      <p align="justify">This block allows you to scale the image; you can resize the details of the image. this block take the width and height of the image as the parameter.</p>
+  1. Save image
       <p align="justify">This block allows you to save the image that you have made all the changes to. you have to give file name and extenssion of the image.</p>
 
       ![save image](images/save-image.png)
-  1. put text
+  1. Put text
       <p align="justify">This block allows you to put your desired text over the image.</p>
-  1. histogram
-      <p align="justify">This block allows you to plot a graph by taking the image properties.</p>
- 1. Filter 2D
-      <p align="justify">This block filters out the rgb value of the image.</p>
+  1. Histogram
+      <p align="justify">This block allows you to plot a graph by taking color properties of the image.</p>
+  1. Filter 2D
+      <p align="justify">This block filters out the rgb value of the image. It is used to change the pixel intensity value of an image based on the surrounding pixel intensity values.</p>
 
       ![filter 2D](images/filter-2D.png)
- 1. convert colour
-      <p align="justify">This block converts the colours of the picture from one clor space to another.</p>
+  1. Convert colour
+      <p align="justify">This block converts the colours of the picture from one color space to another. The most common color spaces that is used by image editors are RBG and CMYK.</p>
 
       ![convert color](images/convert-color.png)
- 1. Rectangle
-      <p align="justify">This block highlights specific size colour orientation of image.
- 1. Threshold mask
-      <p align="justify">This block masks the image.</p>
- 1. Circle
-      <p align="justify">This block highlights specific size colour orientation of image. </p>
+  1. Rectangle
+      <p align="justify">This block highlights specific size, colour, orientation of image.</p>
+  1. Threshold mask
+      <p align="justify">This block masks the image. It allows us to separate the foreground (i.e., the objects that we are interested in) from the background of the image.</p>
+  1. Circle
+      <p align="justify">This block highlights specific size, colour, orientation of image. </p>
       
       ![circle](images/circle.png)
- 1. Threshold otsu
+  1. Threshold otsu
       <p align="justify"> This block uses Otsu algorithm to choose the optimal threshold value. The Otsu algorithm automatically calculates the optimal threshold to separate the two peaks by maximizing the variance between the two types of pixels .</p>
 
       ![threshold otsu](images/threshold-otsu.png)
- 1. bilatral filter
+  1. Bilatral filter
       <p align="justify">This block allows you to remoe the noise from the image and helps smooth out the image.</p>
 
       ![bilateral filter](images/Bilateral-filter.png)
- 1. Threshold trunc
+  1. Threshold trunc
       <p align="justify">When pixel intensity becomes greater than threshold value it will be truncated to threshold. After this the pixel values should be set to the value which will be same as threshold value and other values will be the same.</p>
 
       ![threshold trunc](images/threshold-trunc.png)
- 1. haris corner detection 
-      <p align="justify">Corners are regions in the image with large variation in intensity in all the directions, this block helps you find tham.</p>
- 1. Threshold adaptive mean
+  1. Haris corner detection 
+      <p align="justify">The corners of an image are basically identified as the regions in which there are variations in large intensity of the gradient in all possible dimensions and directions. this block uses haris corner detection method to extract the corners from the input image and to extract features from the input image.   </p>
+  1. Threshold adaptive mean
       <p align="justify"> The threshold value is the mean of the neighbourhood area minus the constant C</p>
 
       ![threshold adaptive mean](images/threshold-adaptive-mean.png)
- 1. image blend   
-      <p>This block helps you to combine images togerther.</p>
- 1. Threshold to zero
-      <p align="justify">All pixels having values less than threshold, the pixel intensity for these is set to zero.</p>
+  1. Image blend   
+      <p>This block helps you to combine multiple images togerther.</p>
+  1. Threshold to zero
+      <p align="justify">This block converts all pixels having values less than threshold, the pixel intensity for these is set to zero.</p>
 
       ![threshold to zero](images/threshold-to-zero.png)
- 1. Threshold triangle
-      <p align="justify">this uses Triangle algorithm to choose the optimal threshold value.</p>
+  1. Threshold triangle
+      <p align="justify">This block uses Triangle algorithm to choose the optimal threshold value. The triangle algorithm checks the shape of the histogram.</p>
 
       ![threshold triangle](images/theshold-triangle.png)
- 1. Threshold binary inv
+  1. Threshold binary inv
       <p align="justify">In this case the intensity of pixels will be the inverse of THRESH_BINARY. That is 0 when pixel value is less than threshold else it will be white.</p>
 
       ![threshold binary inv](images/threshold-binary-inv.png)
+  1. Closing
+      <p align="justify">This block allows you to close small holes inside the foreground objects, or small black points on the object.</p>
+  1. Dilate
+      <p align="Justify">This block allows you to increase the white region in the image. </p>
+  1. Arrowed liked
+      <p align="Justify">This block helps you add an arrow in the image. You can input where to place the arrow, the color of the arrow and the thickness as well.</p>
+
+      ![arowed line](images/arrowed-liked.jpg)
+  1. Canny
+      <p align="Justify">This block allows you to reduce noise in the image, find intensity gradient of the image.</p>
+
+      ![canny](images/canny.jpg)
+  1. Erode
+      <p align="Justify">>This block allows you to erode away the boundaries of foreground object, the thickness or size of the foreground object decreases. </p
+  1. Blank img
+      <p align="Justify"></p>
+  1. Crop
+      <p align="Justify">This block allows you to crop the image.</p>
+
+      
+      ![crop](images/crop.jpg)
+  1. Line
+      <p align="Justify">This block allows you to place a line in the image. You can input where to place the arrow, the color of the arrow and the thickness as well.</p>
+
+      ![line](images/line.jpg)
+  1. Translate
+      <p align="Justify">This block allows you to shift the image along the x and y axis. You can input the x axis and y axis value where you what to shift the image.</p>
+
+      ![translate](images/translate.jpg)
+  1. Webcam Feed
+      <p align="Justify"></p>
+  1. Blur median
+      <p align="Justify">This block allows you to blur the image using the median filter. The median filter run through each element of the signal (in this case the image) and replace each pixel with the median of its neighboring pixels</p>
+
+      ![blur median](images/blur-median.jpg)
+  1. Threshold Adaptive Gaussian
+      <p align="Justify"></p>
+
+      ![threshold adaptive gaussian](images/threshold-adaptive-gaussian.jpg)
+  1. GreyScl Circle Detection
+      <p align="Justify"></p>
+  1. Gaussian Blur
+      <p align="Justify"></p>
+  1. Bitwise op
+      <p align="Justify"></p>
+  1. Fourier
+      <p align="Justify"></p>
+  1. Merge 
+      <p align="Justify"></p>
+  1. Rotate
+      <p align="Justify">This block allows you to rotate the image. You can input thee angle that you want to rotate the image in.</p>
+  1. Split Color
+      <p align="Justify"></p>
+  1. Flip
+      <p align="Justify"></p>
+
  ### Scikit learn
  <p align="justify">Scikit-learn is a free software machine learning library for the Python programming language. In general, the learning problem considers a set of n samples of data and then tries to predict properties of unknown data.</p>
 
  1. Logistic Model
-      <p align="justify">Logistic regression classifies binary and multiclass values and helps in predicting the results.</p>
+      <p align="justify">Logistic regression classifies binary and multiclass values and helps in predicting the results. This block takes data in the form of csv file, ... and give predictiona as result.</p>
+
+      ![logistic model](images/logistic-model.jpg)
  1. Regression Model
-      <p align="justify">Regression model predicts numerical value prediction linear equation. </p>
+      <p align="justify">Regression model predicts numerical value prediction linear equation. This block takes data in the form of csv file, ... and give predictiona as result.</p>
+
+      ![Regression-model](images/regression-model.jpg)
  1. Choose Data
       <p align="justify">This block allows you to choose data, this includes a drop down menu where you can find built in data that are available in Paradox as well as choose different that of your choice.</p>
+
+      ![choose data](images/regression-model.jpg)
  1. Read CSV
-      <p align="justify">This block allows you to read the CSV file.</p>
+      <p align="justify">This block allows you to read the CSV files.</p>
  1. Predict
-      <p align="justify">This block helps you predict the result from the data that has been provided. </p>
+      <p align="justify">This block helps you predict the result from the data,trend model, input data that has been provided. </p>
  1. Read Folder
-      <p align="justify">This block allows you to read the files that you want to predict.</p>
+      <p align="justify">This block allows you to read the folder that you want to predict.</p>
  
-
- ### Tensorflow
-
- ### Numpy
-
  
