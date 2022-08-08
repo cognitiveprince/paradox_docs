@@ -99,11 +99,14 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
    ![value](images/val-and-result-block.jpg)
 1. set var
     <p align="justify">This block allows you to set variables, return values from other blocks, self-contained values.</p>
+
+    ![set var](images/set-var.jpg)
 1. set vars passive
     <p align="justify">This block allows you to set constant variables meaning the values do not change.</p>
 1. get var
     <p align="justify">This blocks gives the value that has been assigned to the variable.</p>
 
+    ![get var](images/get-var.jpg)
  1. result
     <p align="justify">This block allows you to view the output that you get from you program.</p>
 
@@ -419,11 +422,13 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
       ![blur median](images/blur-median.jpg)
   1. Threshold Adaptive Gaussian
-      <p align="Justify"></p>
+      <p align="Justify">This block </p>
 
       ![threshold adaptive gaussian](images/threshold-adaptive-gaussian.jpg)
   1. GreyScl Circle Detection
       <p align="Justify"></p>
+
+      ![greyscl circle detction](images/greyscl-cirlce-detection.jpg)
   1. Gaussian Blur
       <p align="Justify"></p>
   1. Bitwise op
@@ -434,8 +439,12 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
       <p align="Justify"></p>
   1. Rotate
       <p align="Justify">This block allows you to rotate the image. You can input thee angle that you want to rotate the image in.</p>
+
+      ![ritate](images/rotate.jpg)
   1. Split Color
       <p align="Justify"></p>
+
+      ![slpit color](images/split-color.jpg)
   1. Flip
       <p align="Justify"></p>
 
