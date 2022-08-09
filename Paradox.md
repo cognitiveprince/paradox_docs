@@ -324,18 +324,24 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
       ![adjust brigthness](images/adjust-brightness.png)
   1. Blur
       <p align="justify">This block allows you to blur the image. size, saturation of blur</p>
+
+      ![blur](images/blur.jpg)
   1. Resize
       <p align="justify">This block allows you to change the size of the image.</p>
 
       ![resize](images/resize.png)
   1. Scale
       <p align="justify">This block allows you to scale the image; you can resize the details of the image. this block take the width and height of the image as the parameter.</p>
+
+      ![scale](images/scale.jpg)
   1. Save image
       <p align="justify">This block allows you to save the image that you have made all the changes to. you have to give file name and extenssion of the image.</p>
 
       ![save image](images/save-image.png)
   1. Put text
       <p align="justify">This block allows you to put your desired text over the image.</p>
+
+      1[put text](images/put-text.jpg)
   1. Histogram
       <p align="justify">This block allows you to plot a graph by taking color properties of the image.</p>
   1. Filter 2D
@@ -401,11 +407,12 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
   1. Erode
       <p align="Justify">>This block allows you to erode away the boundaries of foreground object, the thickness or size of the foreground object decreases. </p
   1. Blank img
-      <p align="Justify"></p>
+      <p align="Justify">This block allows you to create a blank image.</p>
+
+      ![blank img](images/blank-img.jpg)
   1. Crop
       <p align="Justify">This block allows you to crop the image.</p>
 
-      
       ![crop](images/crop.jpg)
   1. Line
       <p align="Justify">This block allows you to place a line in the image. You can input where to place the arrow, the color of the arrow and the thickness as well.</p>
@@ -416,7 +423,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
       ![translate](images/translate.jpg)
   1. Webcam Feed
-      <p align="Justify"></p>
+      <p align="Justify">This block allows you to access your webcam and captures the image/video from your webcam.</p>
   1. Blur median
       <p align="Justify">This block allows you to blur the image using the median filter. The median filter run through each element of the signal (in this case the image) and replace each pixel with the median of its neighboring pixels</p>
 
@@ -426,27 +433,29 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
       ![threshold adaptive gaussian](images/threshold-adaptive-gaussian.jpg)
   1. GreyScl Circle Detection
-      <p align="Justify"></p>
+      <p align="Justify">This block allows you to detect circles in the image.</p>
 
       ![greyscl circle detction](images/greyscl-cirlce-detection.jpg)
   1. Gaussian Blur
-      <p align="Justify"></p>
+      <p align="Justify">This block uses gaussian filter and smoothes out the image.</p>
   1. Bitwise op
-      <p align="Justify"></p>
+      <p align="Justify">This block allows you to use the bitwise operators AND, OR, NOT and XOR,  and extract any part of the image.</p>
   1. Fourier
-      <p align="Justify"></p>
+      <p align="Justify">this block allows you to analyze the frequency charachteristics of various filters.</p>
   1. Merge 
-      <p align="Justify"></p>
+      <p align="Justify">This block allows you to merge the bgr values of the image that were seperated by the split color block.</p>
+
+      ![merge](images/merge.jpg)
   1. Rotate
       <p align="Justify">This block allows you to rotate the image. You can input thee angle that you want to rotate the image in.</p>
 
-      ![ritate](images/rotate.jpg)
+      ![rotate](images/rotate.jpg)
   1. Split Color
-      <p align="Justify"></p>
+      <p align="Justify">This block allows you to split the image into different channels, it takes the rgb values of the image and seperates them.</p>
 
       ![slpit color](images/split-color.jpg)
   1. Flip
-      <p align="Justify"></p>
+      <p align="Justify">This block helps you to flip the image across its x-axis or y-axis.</p>
 
  ### Scikit learn
  <p align="justify">Scikit-learn is a free software machine learning library for the Python programming language. In general, the learning problem considers a set of n samples of data and then tries to predict properties of unknown data.</p>
