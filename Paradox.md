@@ -138,7 +138,6 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
     ![clock](images/clock.jpg)
 
- ![checkpoint](images/checkpoint.jpg)
  1. Conjugate
     <p align="justify">Conjugate block helps the user to conjugate any matrix. </p>
 
@@ -163,7 +162,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
     ![for](images/for-button.jpg)
  1. For Each
     <p align="justify">This block allows you to create a for each loop. It helps in creating control flow statement for traversing items in a collection.</p>
- 1. herm
+
+ 1. Herm
     <p align="justify">This block allows you to compute the hermatian matrix.</p>
 
     ![herm](images/herm.jpg)
@@ -191,7 +191,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
     ![link out](images/link-out.png)
  1. log
-    <p align="justify">This block returns the natural logarithm of a number, or the logarithm of number to base.</p>
+    <p align="justify">This block returns the value of the variable.</p>
 
     ![log](images/log.jpg)
  1. Matrix
