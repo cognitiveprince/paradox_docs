@@ -431,8 +431,28 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 5. The outer product of the matrixes  will be printed in the output block
 1. Power
+
+    Step 1. Take the matrix block enter the value of the matrix
+
+    Step 2. Take the val block enter the value you want
+
+    Step 3 Connct the two blocks to the power block
+
+    Step 4. The matrix will be powered by the value you entered in the val block, the output will be displayed in the power block
 1. Rand
+
+    Step 1. Take the val blocks, enter the values you want
+
+    Step 2. Take the Rand block and connect it to the val blocks
+
+    Step 3. A random matrix will be created and displayed in the rand block
 1. Real
+
+    Step 1. Take the matrix block and enter a complexmatric
+
+    Step 2. Connect the matrix block with the Real block
+
+    Step 3. The real numbers present in the matrix will be displayed in the real block
 1. Solve
     
     Step 1. Take the matrix blocks 
@@ -456,6 +476,12 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 5. The square root value will be printed in the output block
 1. store
+
+    Step 1. Take the blocks required for the script
+
+    Step  2. take the store block connect it to the value you want to store
+
+    Step 3. Connect the store block to any other oppertion you want to perform 
 1. transpose
 
     Step 1. Take the matrix block
@@ -659,7 +685,7 @@ OpenCV
 
     Step 1. Take the read image block click on the select button and select the image you want to read
 
-    Step 2. Step 2. Take the Crop block and connect it to the read image block
+    Step 2. Take the Crop block and connect it to the read image block
 
     Step 3. Enter the slice x, slice y values of the arrow
 
@@ -668,7 +694,7 @@ OpenCV
 
     Step 1. Take the read image block click on the select button and select the image you want to read
 
-    Step 2. Step 2. Take the line block and connect it to the read image block
+    Step 2. Take the line block and connect it to the read image block
 
     Step 3. Enter the pt1, pt2, color, strokeW values of the arrow
 

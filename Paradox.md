@@ -172,6 +172,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. Imag 
     <p align="justify">This block allows you to extract the imaginary part of the matrixes</p>
 
+    ![imag](images/imag.png)
+
  1. Inner
     <p align="justify">This block allows you too calculate the inner product of two matrixes.</p>
 
@@ -229,6 +231,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. Power
     <p align="justify">This block allows you to assign power to matrix.</p>
 
+
+    ![power](images/power.png)
  1. Print
       <p align="justify">This block prints the specified message to the screen, or other standard output device.</p>
 
@@ -236,9 +240,12 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
  1. Rand
     <p align="justify">This block creates a matrix with random values from 0 to 1. </p>
+
+    ![rand](images/rand.png)
  1. Real
     <p align="justify">This block allows you to extract the real part of the matrix.</p>
 
+    ![real](images/real.jpg)
  1. show matrix
     <p align="justify">This block displays the matrix.</p>
 
@@ -405,7 +412,9 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
       ![canny](images/canny.jpg)
   1. Erode
-      <p align="Justify">>This block allows you to erode away the boundaries of foreground object, the thickness or size of the foreground object decreases. </p
+      <p align="Justify">>This block allows you to erode away the boundaries of foreground object, the thickness or size of the foreground object decreases. </p>
+
+      ![erode](images/erode.jpg)
   1. Blank img
       <p align="Justify">This block allows you to create a blank image.</p>
 
@@ -440,6 +449,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
       <p align="Justify">This block uses gaussian filter and smoothes out the image.</p>
   1. Bitwise op
       <p align="Justify">This block allows you to use the bitwise operators AND, OR, NOT and XOR,  and extract any part of the image.</p>
+
+      [bitwise-op](images/bitwise-op.png)
   1. Fourier
       <p align="Justify">this block allows you to analyze the frequency charachteristics of various filters.</p>
   1. Merge 
@@ -456,7 +467,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
       ![slpit color](images/split-color.jpg)
   1. Flip
       <p align="Justify">This block helps you to flip the image across its x-axis or y-axis.</p>
-
+      ![flip](images/flip.png)
  ### Scikit learn
  <p align="justify">Scikit-learn is a free software machine learning library for the Python programming language. In general, the learning problem considers a set of n samples of data and then tries to predict properties of unknown data.</p>
 
