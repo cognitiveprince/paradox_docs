@@ -349,8 +349,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
       <p align="justify">This block allows you to put your desired text over the image.</p>
 
       1[put text](images/put-text.jpg)
-  1. Histogram
-      <p align="justify">This block allows you to plot a graph by taking color properties of the image.</p>
+
   1. Filter 2D
       <p align="justify">This block filters out the rgb value of the image. It is used to change the pixel intensity value of an image based on the surrounding pixel intensity values.</p>
 
@@ -403,6 +402,8 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
       <p align="justify">This block allows you to close small holes inside the foreground objects, or small black points on the object.</p>
   1. Dilate
       <p align="Justify">This block allows you to increase the white region in the image. </p>
+
+      ![dilate](images/dilate.jpg)
   1. Arrowed liked
       <p align="Justify">This block helps you add an arrow in the image. You can input where to place the arrow, the color of the arrow and the thickness as well.</p>
 

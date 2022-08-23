@@ -3,7 +3,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
 ## Paradox Interface
 1. Flow themes
-    <p align="justify">Paradox boasts a number of themes that you can choose from. The steps below will guide you to finding the themes.
+    <p align="justify">Paradox boasts a number of themes that you can choose from like Tron. The steps below will guide you to finding the themes.
 
     Step 1. Go to the View option on the menu bar.
 
@@ -35,7 +35,7 @@ This scetion will cove everything you will need to know in order to getstarted w
     
     Step 4. Create a Script or go to a pre-existing script, right click on the screen the block menu pops up search for the micro you created and use it in your script.</p>
 1. Save Project
-    <p align="justify">Folloe the steps below to save your Paradox projects
+    <p align="justify">Follow the steps below to save your Paradox projects
     
     Step 1. Go to the File option.
     
@@ -43,17 +43,19 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 3. Enter the name of of the project you want it saved as and click on the save button.</p>
 1. Enable and Disable Extension
-    <p align="justify">Paradox provides you with extetions to make your scripting experience smoother, follow the steps below to enable or disable them.
+    <p align="justify">Paradox provides you with extensions to make your scripting experience smoother, follow the steps below to enable or disable them.
 
-    Step 1 : Import the extension.
+    Step 1 : Go to the extension store.
 
-    Step 2: Connect the block.</p>
+    Step 2. Install the extension, all the blocks .
+
+    Step 3. Connect the block.</p>
 1. Execution Mode
-    <p align="justify">Paradox has two modesthe default Dataflow mpde and execution mode. You can follow the steps below to work in execution mode
+    <p align="justify">Paradox has two modes the default Dataflow mode and execution mode. You can follow the steps below to work in execution mode.
 
-    Step 1. Go to the top right of the screen where you see the data-flow option 
+    Step 1. Go to the top right of the screen where you see the data-flow option. 
 
-    Step 2. Click on the drop down menu and click on exec-flow</p>
+    Step 2. Click on the drop down menu and click on exec-flow.</p>
 
 <p align="justify">Below are the guides on how to use each of the blocks that Paradox has to offer</p>
 
@@ -164,7 +166,8 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 6. You will get the output in the result block.
 1. FOR Loops
-    Step 1. Take the button block to trigger the action.
+
+    Step 1. Take the for block to trigger the action.
 
     Step 2. Take the For or For each block. 
 
@@ -178,7 +181,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
 1. While Loops
 
-    Step 1. Take the button block to trigger the action.
+    Step 1. Take the while block to trigger the action.
 
     Step 2. Take the While or Do While block. 
 
@@ -192,7 +195,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
 1. If else 
 
-    Step 1. Take the button block to trigger the action.
+    Step 1. Take the if else block to trigger the action.
 
     Step 2. Take the If else block. 
 
@@ -206,6 +209,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
 ## Inbuilt block
 1. Slider
+
     Step 1. Take the val blocks for the inputs.
 
     Step 2. Take the slider block.
@@ -218,16 +222,18 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 6.Move the slider to get the desired value, the round option on the block gives round values.
 1. Link in and Link out
+
     Step 1. Take the val blocks for the inputs.
 
     Step 2. Take the link in block, click on the block, a menu will appear click on the copy id option.
 
-    Step 3. Start a new script and take the link out block, click on the block, a menu will appear click on the link to ID option a text box will pop-up paste the id that you copied from the link in block earlier here.
+    Step 3. Take the link out block, click on the block, a menu will appear click on the link to ID option a text box will pop-up paste the id that you copied from the link in block earlier here.
 
     Step 4. Connect the blocks.
 
     Step 5. You will find that the link out block broadcast the output from the script that it is linked to.
 1. FOR
+
     Step 1. Take the button block to trigger the action.
 
     Step 2. Take the For or For each block. 
@@ -245,7 +251,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 2. Take the Set var or Set var Passive block.
 
-    Step 3. Take the print or val block.
+    Step 3. Take the val block.
 
     Step 4. Connect the blocks.
 
@@ -257,7 +263,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 2. Take the Get var block. 
 
-    Step 3. Take the print or val block.
+    Step 3. Take the print block.
 
     Step 4. Connect the blocks.
 
@@ -269,7 +275,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 2. Type the code in the text box.
 
-    Step 3. click enter and you will see the output in the terminal.
+    Step 3. You will see the output in the terminal.
 
     Step 4. Right click on the code block, a menu will appear click on add input to add an input port and click on add output to add an output port.
 
@@ -289,11 +295,12 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 5. Press the button present in the clock block and you will get the output in the terminal.
 1. Matrix
+
     Step 1. Take the matrix block. 
 
     Step 2. Enter the values of the matrix.
 
-    Step 3. Take the print or result or show matrix block.
+    Step 3. Take the print, result or show matrix block.
 
     Step 4. Connect the blocks.
 
@@ -332,6 +339,12 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 5. The dot product of the matrixes will be printed in the output block.
 1. Eval
+
+    Step 1.
+
+    Step 2.
+
+    Step 3.
 1. Herm
 
     Step 1. Take the matrix block.
@@ -364,7 +377,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 4. Connect the blocks.
 
-    Step 5. The imaginary matrix value will be printed in the output block.
+    Step 5. The imaginary values of the matrix will be printed in the output block.
 1. Inner
 
     Step 1. Take the matrix blocks. 
@@ -384,7 +397,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 3. Take the inverse block, show matrix block.
 
-    Step 4. Connect the blocks.
+    Step 4. Connect the inverse and output blocks.
 
     Step 5. The inverse value of the matrix  will be printed in the output block.
 1. Kron
@@ -400,7 +413,7 @@ This scetion will cove everything you will need to know in order to getstarted w
     Step 5. The product value of the matrix  will be printed in the output block.
 1. log
 
-     Step 1. Take the button block to trigger the action. 
+    Step 1. Take the button block to trigger the action. 
 
     Step 2. Take the val block enter the value you want.
 
@@ -421,7 +434,19 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step 5. The product value of the matrix  will be printed in the output block.
 1. Null
+
+    Step 1.
+
+    Step 2.
+
+    Step 3.
 1. Ones
+
+    Step 1.
+
+    Step 2.
+
+    Step 3.
 1. Outer
 
     Step 1. Take the matrix blocks. 
@@ -451,7 +476,7 @@ This scetion will cove everything you will need to know in order to getstarted w
     Step 3. A random matrix will be created and displayed in the rand block.
 1. Real
 
-    Step 1. Take the matrix block and enter a complexmatric.
+    Step 1. Take the matrix block and enter a complex matrix.
 
     Step 2. Connect the matrix block with the Real block.
 
@@ -484,7 +509,7 @@ This scetion will cove everything you will need to know in order to getstarted w
 
     Step  2. take the store block connect it to the value you want to store.
 
-    Step 3. Connect the store block to any other oppertion you want to perform. 
+    Step 3. Connect the store block to any other opertion you want to perform. 
 1. transpose
 
     Step 1. Take the matrix block.
@@ -504,15 +529,14 @@ OpenCV
 
     Step 2. Click on the select button and select the image you want to read.
 
+    Step 3. You can take the val block enter the file path, connect the val block to the read image block and read the image.
+
 1. Display image
 
-    Step 1. Take the read image block. 
+    
+    Step 1. Take the display image block and choose the image you want to display. 
 
-    Step 2. Click on the select button and select the image you want to read.
-
-    Step 3. Take the display image block and connect it to the read image block.
-
-    Step 4. The image will be displayed in the diaplay image block.
+    Step 2. The image will be displayed in the diaplay image block.
 1. Adjust brightness
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
@@ -551,7 +575,7 @@ OpenCV
     Step 4. The image will be displayed in the scale block. 
 1. Save image
 
-    Step 1. Take the save image button.
+    Step 1. Take the save image block.
 
     Step 2. Connect it to the block which displays the image you want to save. 
 
@@ -565,8 +589,6 @@ OpenCV
     Step 3. Enter the text you want to add on the image in the field section. 
 
     Step 4. The image with the text will be displayed in the put text block. 
-1. Histogram
-
     
 1. Filter 2D
 
@@ -581,26 +603,32 @@ OpenCV
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
 
-    Step 2. Take the resize block and connect it to the read image block.
+    Step 2. Take the conver color block and connect it to the read image block.
 
-    Step 3. Enter the width and height field with the values you want. 
-
-    Step 4. The image will be displayed in the convert color block. 
+    Step 3. The image will be displayed in the convert color block. 
 1. Rectangle
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
 
-    Step 2. Step 2. Take the rectangle block and connect it to the read image block.
+    Step 2. Take the rectangle block and connect it to the read image block.
 
     Step 3. Enter the 
 
     Step 4. The image will be displayed in the rectangle block. 
 1. Threshold mask
+
+    Step 1. Take the read image block click on the select button and select the image you want to read.
+
+    Step 2. Take the Threshold mask block and connect it to the read image block.
+
+    Step 3. Enter the Thresh, maxval values.
+
+    Step 4. The image will be displayed in the Threshold mask block.
 1. Circle
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
 
-    Step 2. Step 2. Take the circle block and connect it to the read image block.
+    Step 2. Take the circle block and connect it to the read image block.
 
     Step 3. Enter the center, radius, color, stroke values.
 
@@ -632,7 +660,15 @@ OpenCV
     Step 3. Enter the thresh and maxval field with the values you want. 
 
     Step 4. The image will be displayed in the threshold trunc block.
-1. Haris corner detection 
+1. Harris corner detection 
+
+    Step 1. Take the read image block click on the select button and select the image you want to read.
+
+    Step 2. Take the Harris corner detection block and connect it to the read image block.
+
+    Step 3. Enter the Block size, ksize and k field with the values you want. 
+
+    Step 4. The image will be displayed in the Harris corner detection block.
 1. Threshold adaptive mean
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
@@ -643,6 +679,12 @@ OpenCV
 
     Step 4. The image will be displayed in the Threshold adaptive mean block. 
 1. Image blend
+
+    Step 1.
+
+    Step 2.
+
+    Step 3.
 1. Threshold to zero
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
@@ -671,12 +713,28 @@ OpenCV
 
     Step 4. The image will be displayed in the Threshold binary inv block.
 1. Closing
+
+   Step 1. Take the read image block click on the select button and select the image you want to read.
+
+    Step 2. Take the Closing block and connect it to the read image block.
+
+    Step 3. Enter the kernel value in the closing block.
+
+    Step 4. The image will be displayed in the closing block.
 1. Dilate
+
+    Step 1. Take the read image block click on the select button and select the image you want to read.
+
+    Step 2. Take the Dilate block and connect it to the read image block.
+
+    Step 3. Enter the kernel and iteration value in the dilate block.
+
+    Step 4. The image will be displayed in the dilate block.
 1. Arrowed liked
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
 
-    Step 2. Step 2. Take the Arrowed liked block and connect it to the read image block.
+    Step 2. Take the Arrowed liked block and connect it to the read image block.
 
     Step 3. Enter the pt1, pt2, color, strokeW values of the arrow.
 
@@ -689,7 +747,7 @@ OpenCV
 
     Step 3. Enter the TS1 and TS2 values in the canny block.
 
-    Step 4. The altered image will be displayed in the erode block.
+    Step 4. The altered image will be displayed in the canny block.
 1. Erode 
 
     Step 1. Take the read image block and select the image you want to read.
@@ -700,6 +758,12 @@ OpenCV
 
     Step 4. The eroded image will be displayed in the erode block.
 1. Blank img
+
+    Step 1. Take the 
+
+    Step 2. 
+
+    Step 3.
 1. Crop
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
@@ -760,6 +824,14 @@ OpenCV
 
     Step 4. The image will be displayed in the GreyScl Circle Detection block.
 1. Gaussian Blur
+
+    Step 1. Take the read image block click on the select button and select the image you want to read.
+
+    Step 2. Take the Gaussian Blur block and connect it to the read image block.
+
+    Step 3. Enter the ksize field with the values you want.
+
+    Step 4. The image will be displayed in the Gaussian Blur block.
 1. Bitwise op
 
     Step 1. Take the read image blocks select the imagees that you want to alter.
@@ -770,6 +842,12 @@ OpenCV
 
     Step 4. The output will be displayed in the bitwise op block.
 1. Fourier
+
+    Step 1.
+
+    Step 2.
+
+    Step 3.
 1. Merge
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
@@ -801,6 +879,14 @@ OpenCV
     Step 4. The images will be displayed in the display image block.
 1. Flip
 
+    Step 1. Take the read image block click on the select button and select the image you want to read.
+
+    Step 2. Take the flip block and connect it to the read image block.
+
+    Step 3. You have to choose between values 0 and 1, 1 keeps the image as it is and 0 flips the image. 
+
+    Step 4. The flipped image will be displayed in the flip block.
+
 Scikit learn
 
 1. Logistic Model
@@ -811,7 +897,7 @@ Scikit learn
 
     Step 3. Take the predict block and connect it with result block.
 
-    Step 4. The result will be displayed in the result block.
+    Step 4. The predicted result will be displayed in the result block.
 1. Regression Model
 
     Step 1. Take the choose data, read csv block. 
@@ -820,7 +906,7 @@ Scikit learn
 
     Step 3. Take the predict block and connect it with result block.
 
-    Step 4. The result will be displayed in the result block.
+    Step 4. The predicted result will be displayed in the result block.
 1. Predict
 
     Step 1. Choose the data you want to predict with the help of choose data or read csv block.
@@ -832,4 +918,4 @@ Scikit learn
 
     Step 1. Take the read folder block.
 
-    Step 2. A menu will appear choose the file you want to read.
+    Step 2. A menu will appear choose the folder you want to read.
