@@ -340,11 +340,11 @@ This scetion will cove everything you will need to know in order to getstarted w
     Step 5. The dot product of the matrixes will be printed in the output block.
 1. Eval
 
-    Step 1.
+    Step 1. Take the blocks required for the script.
 
-    Step 2.
+    Step 2. Take the eval block and write the code you want
 
-    Step 3.
+    Step 3. Connent the eval block to the output block to get the output.
 1. Herm
 
     Step 1. Take the matrix block.
@@ -435,18 +435,22 @@ This scetion will cove everything you will need to know in order to getstarted w
     Step 5. The product value of the matrix  will be printed in the output block.
 1. Null
 
-    Step 1.
+    Step 1. Take the matrix block.
 
-    Step 2.
+    Step 2. Enter the values of the matrix.
 
-    Step 3.
+    Step 3. Take the null block and connect it to the matrix block.
+
+    Step 4. The null matrix will be displayed in the output block.
 1. Ones
 
-    Step 1.
+    Step 1. Take the matrix block.
 
-    Step 2.
+    Step 2. Enter the values of the matrix.
 
-    Step 3.
+    Step 3. Take the ones block and connect it to the matrix block.
+
+    Step 4. The ones matrix will be displayed in the output block.
 1. Outer
 
     Step 1. Take the matrix blocks. 
@@ -680,11 +684,12 @@ OpenCV
     Step 4. The image will be displayed in the Threshold adaptive mean block. 
 1. Image blend
 
-    Step 1.
+    Step 1. Take the read image blocks click on the select button and select the images you want to read.
 
-    Step 2.
+    Step 2. Take the Image blend block and connect it to the read image blocks .
 
-    Step 3.
+    Step 3. 
+    The blended image will appear in the image blend block. 
 1. Threshold to zero
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
@@ -759,11 +764,11 @@ OpenCV
     Step 4. The eroded image will be displayed in the erode block.
 1. Blank img
 
-    Step 1. Take the 
+    Step 1.Take the read image block and select the image you want to read. 
 
-    Step 2. 
+    Step 2. Take the blank image block and connec it to the read image block and enter dims value.
 
-    Step 3.
+    Step 3. Take the display image block and connct it to the blank image block, the image will be displayed in the 
 1. Crop
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
@@ -841,13 +846,6 @@ OpenCV
     Step 3. Choose theoperation you want to conduct.
 
     Step 4. The output will be displayed in the bitwise op block.
-1. Fourier
-
-    Step 1.
-
-    Step 2.
-
-    Step 3.
 1. Merge
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
