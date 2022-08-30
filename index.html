@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 
@@ -48,7 +47,8 @@
                         </li>
                         <li>
                             <a href="#Blocks" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Blocks</span> </a>
+                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Blocks</span>
+                            </a>
                             <ul class="collapse nav flex-column ms-1" id="Blocks" data-bs-parent="#menu">
                                 <li class="w-100">
                                     <a href="#InbuiltBlocks" class="nav-link px-0"> <span
@@ -62,16 +62,38 @@
                                             Blocks</span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#OpenCVBlocks" class="nav-link px-0"> <span
-                                            class="d-none d-sm-inline">OpenCV
-                                            Blocks</span>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#Built-inTerminal" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Built-In
+                                    Terminal</span></a>
+                        </li>
+                        <li>
+                            <a href="#Variable" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Variable</span></a>
+                        </li>
+                        <li>
+                            <a href="#Log" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Log</span></a>
+                        </li>
+                        <li>
+                            <a href="#Macro" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Macro</span></a>
+                        </li>
+                        <li>
+                            <a href="#Extensions" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Extensions</span>
+                            </a>
+                            <ul class="collapse nav flex-column ms-1" id="Blocks" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#OpenCV" class="nav-link px-0"> <span
+                                            class="d-none d-sm-inline">OpenCV</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#ScikitLearnBlocks" class="nav-link px-0"> <span
-                                            class="d-none d-sm-inline">Scikit Learn
-                                            Blocks </span>
+                                    <a href="#ScikitLearn" class="nav-link px-0"> <span
+                                            class="d-none d-sm-inline">Scikit Learn</span>
                                     </a>
                                 </li>
                             </ul>
@@ -82,42 +104,55 @@
             </div>
             <div id="Content" class="col py-3">
                 <h1>Content</h1>
-                <p align="justify">This document details what you will experience with Paradox. It will cover everything
+                <p align="justify">This document details what you will experience with Paradox. It will cover
+                    everything
                     you need to know before getting started with Paradox; from the interface, to the features.</p>
                 <h2 id="Introduction">Introduction</h2>
-                <p align="justify">Paradox is a first of its kind software. Paradox lets you use the more diagram-like,
+                <p align="justify">Paradox is a first of its kind software. Paradox lets you use the more
+                    diagram-like,
                     dataflow inspired structure to represent data processing-centric functionality. It is the next
-                    generation programming tool for everyone. Paradox is easily accessible and easy to use. It works in
-                    a diagram-like, data flow inspired structure to represent data processing-centric functionality. It
-                    uses nodes which runs codes and Paradox provides a simple framework to create them and an editor to
+                    generation programming tool for everyone. Paradox is easily accessible and easy to use. It works
+                    in
+                    a diagram-like, data flow inspired structure to represent data processing-centric functionality.
+                    It
+                    uses nodes which runs codes and Paradox provides a simple framework to create them and an editor
+                    to
                     use them.The Use cases range almost through the whole Python domain, from IoT, over machine
-                    learning, generative engineering, Raspberry Pi, web APIs, and much more. Anyone with basic Python
+                    learning, generative engineering, Raspberry Pi, web APIs, and much more. Anyone with basic
+                    Python
                     programming language understanding can use Paradox with ease.</p>
                 <h2 id="Background">Background</h2>
-                <p align="justify">In computing, a process is the instance of a computer program that is being executed
-                    by one or many threads. It contains the program code and its activity. Depending on the operating
-                    system (OS), a process may be made up of multiple threads of execution instructions concurrentl. In
+                <p align="justify">In computing, a process is the instance of a computer program that is being
+                    executed
+                    by one or many threads. It contains the program code and its activity. Depending on the
+                    operating
+                    system (OS), a process may be made up of multiple threads of execution instructions concurrentl.
+                    In
                     Paradox the input-process-output concept is utilized on top of dataflow programming.</p>
 
-                <p align="justify">In programming we have sequential flow and data flow methods that helps determine the
+                <p align="justify">In programming we have sequential flow and data flow methods that helps determine
+                    the
                     flow of the program. In sequential flow the function are performed in steps, an action must be
                     triggered for the program to start; it is the traditional way of doing pragramming. In dataflow
                     programming application are represented as a set of nodes (also called blocks) with input and/or
                     output ports in them. It introduces a new programming paradigm that internally represents
                     application as a directed graph, similarly to a dataflow diagram. Below we have the examples of
                     sequential flow and dataflow progamming that can be done in Paradox.</p>
-                    <img src="images/sequential-flow.jpg" class="img-thumbnail" alt="Sequential Flow">
-                    <img src="images/data-flow-eg.jpg" class="img-fluid" alt="Data Flow">
+                <img src="images/sequential-flow.jpg" class="img-thumbnail" alt="Sequential Flow">
+                <img src="images/data-flow-eg.jpg" class="img-fluid" alt="Data Flow">
                 <p align="justify">
                     The key benefit of Dataflow programming is that, in dataflow, more than one instruction can be
                     executed at once. Thus, if several instructions be- come fire able at the same time, they can be
-                    executed in parallel. This simple principle provides the potential for massive parallel execution at
+                    executed in parallel. This simple principle provides the potential for massive parallel
+                    execution at
                     the instruction level.</p>
 
                 <p align="justify">
                     DFP(Data Flow Programming) has enabled many visual programming languages that provide a more
-                    user-friendly interface so that even non-technical users can write programs. Such languages are also
-                    suited for rapid prototyping. Paradox utilizes dataflow programming in Json formating so it is easy
+                    user-friendly interface so that even non-technical users can write programs. Such languages are
+                    also
+                    suited for rapid prototyping. Paradox utilizes dataflow programming in Json formating so it is
+                    easy
                     to use and
                     mostly errorfree.</p>
                 <h2 id="Features">Features of Paradox</h2>
@@ -131,60 +166,407 @@
                 <h3><a href=#Feature8>8. Multiple Modes</a></h3>
                 <h3><a href=#Feature9>9. Multiple Extension</a></h3>
                 <h3 id="Feature1">1. Create clear and pretty flows</h3>
-                <p align="justify">Visual Scripting is a huge part of Paradox. Paradox uses blocks and nodes that help
-                    in creating clear and pretty flow. It makes it easy to follow, easy to script for rookie programmer
+                <p align="justify">Visual Scripting is a huge part of Paradox. Paradox uses blocks and nodes that
+                    help
+                    in creating clear and pretty flow. It makes it easy to follow, easy to script for rookie
+                    programmer
                     and experienced programmers alike.</p>
                 <img src="images/feature-1.jpg" class="img-fluid" alt="Create clear and pretty flows ">
                 <h3 id="Feature2">2. Built-In Interpreter</h3>
                 <p align="justify">Paradox uses the built-in REPL through which you can have access to the backend
                     session and you can use its whole API as well as access your nodes. Any modifications like
-                    creating/renaming/deleting new scripts, will reactively be processed by the frontend automatically,
+                    creating/renaming/deleting new scripts, will reactively be processed by the frontend
+                    automatically,
                     so you can really do everything from the console. terminal ss</p>
                 <h3 id="Feature3">3. Python3 by default</h3>
                 <p align="justify">Paradox has almost every python inbuilt functions integrated in it, which you can
                     access instantly with right click of your mouse.</p>
                 <h3 id="Feature4">4. Source Code Access</h3>
-                <p align="justify">In Paradox you can access the Source code implementation of the nodes you use inside
-                    the editor. You can view and overide the source code as you and the result of the change change can
+                <p align="justify">In Paradox you can access the Source code implementation of the nodes you use
+                    inside
+                    the editor. You can view and overide the source code as you and the result of the change change
+                    can
                     be viewed in real time. </p>
-                    <img src="images/source-code.jpg" class="img-fluid" alt="Source Code Access">
+                <p align="justify">Paradox uses diagramatic scripting but you can also view the source for the script in
+                    each of the node and blocks, these source code are editable. You can make what ever changes you wish
+                    to make with-in the blocks. If the change is made in any particular block that change doesnot effect
+                    other blocks.You can change the functionality of the block by overiding the code.</p>
+                <img src="images/source-code.jpg" class="img-fluid" alt="Source Code Access">
                 <h3 id="Feature5">5. Stylus support</h3>
-                <p align="justify">Paradox supports stylus, you can write notes into your flows by hand using a stylus
-                    pen. One effective use of this feature is that it supports clarity and adds a whole new dimension to
+                <p align="justify">Paradox supports stylus, you can write notes into your flows by hand using a
+                    stylus
+                    pen. One effective use of this feature is that it supports clarity and adds a whole new
+                    dimension to
                     your visual flows.</p>
                 <h3 id="Feature6">6. Work fast with parallel computing</h3>
-                <p align="justify">Your work feels satisfying when your work get seem less and fast. Through simple GUI
-                    and tools to work with for developer, Programming would be more easier , simpler to code, understand
+                <p align="justify">Your work feels satisfying when your work get seem less and fast. Through simple
+                    GUI
+                    and tools to work with for developer, Programming would be more easier , simpler to code,
+                    understand
                     and build an incredible product.</p>
                 <h3 id="Feature7">7. Multiple Themes</h3>
                 <p align="justify">There are many themes available in paradox, you can change them to which ever you
                     like. Paradox consists of multiple themes that you can work with, themes like toy, tron, ghost,
                     blender, simple, ueli, pure dark, colorful dark, industrial, pure light and colorful light.</p>
-                    <img src="images/toy.jpg" class="img-fluid" alt="Toy">
-                    <img src="images/tron.jpg" class="img-fluid" alt="Tron">
-                    <img src="images/ghost.jpg" class="img-fluid" alt="Ghost">
-                    <img src="images/blender.jpg" class="img-fluid" alt="Blender">
-                    <img src="images/simple.jpg" class="img-fluid" alt="Simple">
-                    <img src="images/ueli.jpg" class="img-fluid" alt="Ueli">
-                    <img src="images/pure-dark.jpg" class="img-fluid" alt="Pure Dark">
-                    <img src="images/colourful-dark.jpg" class="img-fluid" alt="Colorful Dark">
-                    <img src="images/industrial.jpg" class="img-fluid" alt="Industrial">
-                    <img src="images/pure-light.jpg" class="img-fluid" alt="Pure Light">
-                    <img src="images/colourful-light.jpg" class="img-fluid" alt="Colorful Light">
+                <img src="images/toy.jpg" class="img-fluid" alt="Toy">
+                <img src="images/tron.jpg" class="img-fluid" alt="Tron">
+                <img src="images/ghost.jpg" class="img-fluid" alt="Ghost">
+                <img src="images/blender.jpg" class="img-fluid" alt="Blender">
+                <img src="images/simple.jpg" class="img-fluid" alt="Simple">
+                <img src="images/ueli.jpg" class="img-fluid" alt="Ueli">
+                <img src="images/pure-dark.jpg" class="img-fluid" alt="Pure Dark">
+                <img src="images/colourful-dark.jpg" class="img-fluid" alt="Colorful Dark">
+                <img src="images/industrial.jpg" class="img-fluid" alt="Industrial">
+                <img src="images/pure-light.jpg" class="img-fluid" alt="Pure Light">
+                <img src="images/colourful-light.jpg" class="img-fluid" alt="Colorful Light">
                 <h3 id="Feature8">8. Multiple Modes</h3>
                 <p align="justify">Paradox consists of two modes that you can work with, data-flow and exec-flow.
-                    Data-flow is the default mode. Anyone who want to use Paradox in any mode they like is able to do
+                    Data-flow is the default mode. Anyone who want to use Paradox in any mode they like is able to
+                    do
                     so. description data flow parallel computing exec-flow sequential computing</p>
                 <h3 id="Feature9">9. Multiple Extension</h3>
-                <p align="justify">Paradox has multiple extensions for you to use, like nodes, numpy, openCV, Pandas,
+                <p align="justify">Paradox has multiple extensions for you to use, like nodes, numpy, openCV,
+                    Pandas,
                     scikit_learn. These extension provides blocks to complete you're overal code.</p>
-                    <img src="images/extensions.jpg" class="img-fluid" alt="Extensions">    
+                <img src="images/extensions.jpg" class="img-fluid" alt="Extensions">
 
                 <h2>Blocks</h2>
                 <h3 id="InbuiltBlocks">Inbuilt Block</h3>
-                <h3 id="SystemBlocks">Sustem Blocks</h3>
-                <h3 id="OpenCVBlocks">OpenCV Blocks</h3>
-                <h3 id="ScikitLearnBlocks">Scikit Learn Blocks</h3>
+                <h4>val</h4>
+                <p align="justify">This block allows you to input the value in your program.</p>
+                <img src="images/val-and-result-block.jpg" class="img-fluid" alt="Val block">
+                <h4>set var</h4>
+                <p align="justify">This block allows you to set variables, return values from other blocks,
+                    self-contained values.</p>
+                <img src="images/set-var.jpg" class="img-fluid" alt="Set Var block">
+                <img src="images/set.jpg" class="img-fluid" alt="Extensions">
+                <h4>get var</h4>
+                <p align="justify">This blocks gives the value that has been assigned to the variable.</p>
+                <img src="images/get-var.jpg" class="img-fluid" alt="Get Var block">
+                <h4>result</h4>
+                <p align="justify">This block allows you to view the output that you get from you program.</p>
+                <img src="images/val-and-result-block.jpg" class="img-fluid" alt="Result block">
+                <h4>Code</h4>
+                <p align="justify">This block provides you space where you can code normaly and get the result in the
+                    terminal at the bottom of the screen and assign the input and output of a variable.</p>
+                <img src="images/logistic-model.jpg" class="img-fluid" alt="code block">
+                <h3 id="SystemBlocks">System Blocks</h3>
+                <h4>And</h4>
+                <p align="justify">This block is Python's and operator which allows you to construct compound Boolean
+                    expressions that you can use to decide the course of action of your programs. It returns True if
+                    both statements are true</p>
+                <img src="images/and.jpg" class="img-fluid" alt="And block">
+                <h4>IF ELSE</h4>
+                <p align="justify">This block allows you to work with an if else condition where the statement executes
+                    only if the test condition is True</p>
+                <img src="images/if-else.jpg" class="img-fluid" alt="if else block">
+                <h4>Button</h4>
+                <p align="justify">Button block is used to trigger an action.</p>
+                <img src="images/for-button.jpg" class="img-fluid" alt="Button block">
+                <h4>CheckPoint</h4>
+                <p align="justify">Checkpoint block is used to connect multiple branch and flows withing the program.
+                </p>
+                <img src="images/checkpoint.jpg" class="img-fluid" alt="Checkpoint block">
+                <h4>Clock</h4>
+                <p align="justify">This block helps to set the number of iteration and the delay in result, it consists
+                    of a button which needs to be clicked in order to trigger the action.</p>
+                <img src="images/clock.jpg" class="img-fluid" alt="Clock block">
+                <h4>Conjugate</h4>
+                <p align="justify">Conjugate block helps the user to conjugate any matrix. </p>
+                <img src="images/conjugate.jpg" class="img-fluid" alt="Conjugate block">
+                <h4>Determinant</h4>
+                <p align="justify">Determinant helps to compute the detrminant of a matrix.</p>
+                <img src="images/determinant.jpg" class="img-fluid" alt="Determinant block">
+                <h4>Do while</h4>
+                <p align="justify">The do while block helps ceates do while loop where the condition is checked after
+                    executing the statement so the code is run atleat one time.</p>
+                <img src="images/do-while.jpg" class="img-fluid" alt="Do while block">
+                <h4>Dot Product</h4>
+                <p align="justify">The Dot Product block returns a dot product of two matrixes. </p>
+                <img src="images/dot-product.jpg" class="img-fluid" alt="Dot product block">
+                <h4>For</h4>
+                <p align="justify">This block helps create for loop for iterating over a sequence. For loop executes a
+                    block of code until the expression returns false</p>
+                <img src="images/for-button.jpg" class="img-fluid" alt="For block">
+                <h4>Herm</h4>
+                <p align="justify">This block allows you to compute the hermatian matrix.</p>
+                <img src="images/herm.jpg" class="img-fluid" alt="Herm block">
+                <h4>Imag</h4>
+                <p align="justify">This block allows you to extract the imaginary part of the matrixes</p>
+                <img src="images/imag.png" class="img-fluid" alt="Imag block">
+                <h4>Inner</h4>
+                <p align="justify">This block allows you too calculate the inner product of two matrixes.</p>
+                <img src="images/inner.jpg" class="img-fluid" alt="Inner block">
+                <h4>Inverse</h4>
+                <p align="justify">This block helps you to find inverse of matrix</p>
+                <img src="images/inverse.jpg" class="img-fluid" alt="Inverse block">
+                <h4>Link IN</h4>
+                <p align="justify">This block broadcast the value, the code from this block needs to be pasted in the
+                    link OUT block for them to be connected and once connected you will be able to broadcast the value.
+                </p>
+                <img src="images/link-in.jpg" class="img-fluid" alt="Link IN block">
+                <h4>Link OUT</h4>
+                <p align="justify">This block listens the value broadcasted by the link IN block. You need to copy the
+                    link from link in and paste it here for the values to be linked together and you will be able to
+                    listen to the bradcasted value.</p>
+                <img src="images/link-out.jpg" class="img-fluid" alt="Link OUT block">
+                <h4>Log</h4>
+                <p align="justify">This block returns the value of the variable.</p>
+                <img src="images/log.jpg" class="img-fluid" alt="Log block">
+                <h4>Matrix</h4>
+                <p align="justify">This block allows you to create matrixes.</p>
+                <img src="images/matrix mult show matrix.jpg" class="img-fluid" alt="Matrix block">
+                <h4>Mult</h4>
+                <p align="justify">This block allows you to multiply matrixes.</p>
+                <img src="images/matrix-mult-show-matrix.jpg" class="img-fluid" alt="Mult block">
+                <h4>NAND</h4>
+                <p align="justify">The 'NAND' gate is a combination of 'AND' gate followed by 'NOT' gate. helps to
+                    create boolean expression</p>
+                <img src="images/nand.jpg" class="img-fluid" alt="NAND block">
+                <h4>NOR</h4>
+                <p align="justify">The NOR gate (negated OR) gives an output of 1 if both inputs are 0,it gives 0
+                    otherwise. </p>
+                <img src="images/nor.jpg" class="img-fluid" alt="NOR block">
+                <h4>NOT</h4>
+                <p align="justify">The 'not' is a Logical operator in Python that will return True if the expression is
+                    False. </p>
+                <img src="images/not.jpg" class="img-fluid" alt="NOT block">
+                <h4>OR</h4>
+                <p align="justify">This block helps create boolean expression that returns True if one of the statements
+                    is true</p>
+                <img src="images/or.jpg" class="img-fluid" alt="OR block">
+                <h4>Outer</h4>
+                <p align="justify">This block allows you to calculate the inner product of two matrixes</p>
+                <img src="images/outer.jpg" class="img-fluid" alt="Outer block">
+                <h4>Power</h4>
+                <p align="justify">This block allows you to assign power to matrix.</p>
+                <img src="images/power.png" class="img-fluid" alt="Power block">
+                <h4>Print</h4>
+                <p align="justify">This block prints the specified message to the screen, or other standard output
+                    device.</p>
+                <img src="images/print.jpg" class="img-fluid" alt="Print block">
+                <h4>Rand</h4>
+                <p align="justify">This block creates a matrix with random values from 0 to 1. </p>
+                <img src="images/rand.png" class="img-fluid" alt="Rand block">
+                <h4>Real</h4>
+                <p align="justify">This block allows you to extract the real part of the matrix.</p>
+                <img src="images/real.jpg" class="img-fluid" alt="Real block">
+                <h4>Show Matrix</h4>
+                <p align="justify">This block displays the matrix.</p>
+                <img src="images/matrix-mult-show-matrix.jpg" class="img-fluid" alt="Show matrix block">
+                <h4>Slider</h4>
+                <p align="justify">This block allows you to produce dynamic a value with the help of a sliding
+                    indicator.</p>
+                <img src="images/slider1.jpg" class="img-fluid" alt="Slider block">
+
+                <img src="images/slide2.jpg" class="img-fluid" alt="Slider block">
+                <h4>Solve</h4>
+                <p align="justify">This block allows you to solve the mathematical equations easily, it returns the
+                    value according to the inputs datatype. </p>
+                <img src="images/solve.jpg" class="img-fluid" alt="Solve block">
+                <h4>Sqrt</h4>
+                <p align="justify">This block is an inbuilt function in Python programming language that returns the
+                    square root of any number.</p>
+                <img src="images/sqrt.jpg" class="img-fluid" alt="Sqrt block">
+                <h4>Store</h4>
+                <p align="justify">This block allows you to sequentially store all the data provided at input in an
+                    array. A copy of the input is provided at the output.</p>
+                <img src="images/store.jpg" class="img-fluid" alt="Store block">
+                <h4>While</h4>
+                <p align="justify">This block helps set while loop where you can execute a set of statements as long as
+                    a condition is true.</p>
+                <img src="images/while.jpg" class="img-fluid" alt="While block">
+                <h4>XNOR</h4>
+                <p align="justify">The XNOR gate (negated XOR) gives an output of 1 both inputs are same and 0 if both
+                    are different.</p>
+                <img src="images/xnor.jpg" class="img-fluid" alt="XNOR block">
+                <h4>XOR</h4>
+                <p align="justify">This block returns 1 if one of the bits is 1 and the other is 0 else returns false.
+                </p>
+                <img src="images/xor.jpg" class="img-fluid" alt="XOR block">
+                <h4></h4>
+                <h3 id="Built-inTerminal">Built-in Terminal</h3>
+                <p align="justify">Paradox has built-in terminal where you can code, enter commands and achieve outputs
+                    the same time. This terminal can be access by pulling the second tab at the bottom of your screen.
+                    The built-in terminal works the same as Python, here you can execute th ecode. </p>
+                <img src="images/built-in-terminal-output.jpg" class="img-fluid" alt="Built-In Terminal ">
+                <img src="images/for-loop.jpg" class="img-fluid" alt="Built-In Terminal ">
+                <h3>Variable</h3>
+                <p align="justify">At the right side of the Paradox UI there is a variable panel where you can
+                    initialize variables and also set the values.</p>
+                <img src="images/variables.jpg" class="img-fluid" alt="variables ">
+                <h3>Log</h3>
+                <p align="justify">Log is the section at the bottom of Paradox, you can get to this interface by pullig
+                    the bottom tab upward; this consists of global and error sections. Global shows the variables in the
+                    script if assigned and errors as the name suggests shows the error but with paradox errors are very
+                    unlikely to happen.</p>
+                <h3>Macro</h3>
+                <p align="justify">A macro is a compile-time function that transforms a part of the program to allow
+                    functionality that cannot be expressed cleanly in normal library code. Paradox includes a macro
+                    option where you can create your custom functions/blocks. Input and output are indexed according to
+                    list,You can add parameters, inputs, outputs.
+                </p>
+                <img src="images/macro1.jpg" class="img-fluid" alt="Macro ">
+                <img src="images/macro2.jpg" class="img-fluid" alt="Macro ">
+                <h3>Extensions</h3>
+                <h4>OpenCV</h4>
+                <p align="justify">OpenCV (Open Source Computer Vision Library) is an open source computer vision and
+                    machine learning software library. OpenCV was built to provide a common infrastructure for computer
+                    vision applications and to accelerate the use of machine perception in the commercial products.
+                    Paradox has implemented OpenCV which can be used to edit and customize images as you desire. </p>
+                <h5>Read Image</h5>
+                <p align="justify">This block alows you too read image you want to display.</p>
+                <img src="images/read-display-image.png" class="img-fluid" alt="Read Image Block ">
+                <h5>Display image</h5>
+                <p align="justify">This block allows you to display the image, you have to connect this block with the
+                    read image block. this block take the path of the image as a parameter.</p>
+                <img src="images/read-display-image.png" class="img-fluid" alt="Display Image Block ">
+                <h5>Adjust brightness</h5>
+                <p align="juastify">This block allows you to adjust the brightness of the image as you want.by giving
+                    parameters as alpha and beta</p>
+                <img src="images/adjust-brightness.png" class="img-fluid" alt="Adjust Brightness Block ">
+                <h5>Blur</h5>
+                <p align="justify">This block allows you to blur the image. size, saturation of blur</p>
+                <img src="images/blur.jpg" class="img-fluid" alt="blur">
+                <h5>Resize</h5>
+                <p align="justify">This block allows you to change the size of the image.</p>
+                <img src="images/resize.png" class="img-fluid" alt="resize">
+                <h5>Scale</h5>
+                <p align="justify">This block allows you to scale the image; you can resize the details of the image.
+                    this block take the width and height of the image as the parameter.</p>
+                <img src="images/scale.jpg" class="img-fluid" alt="scale">
+                <h5>Save image</h5>
+                <p align="justify">This block allows you to save the image that you have made all the changes to. you
+                    have to give file name and extenssion of the image.</p>
+                <img src="images/save-image.png" class="img-fluid" alt="Save image">
+                <h5>Put text</h5>
+                <p align="justify">This block allows you to put your desired text over the image.</p>
+                <img src="images/put-text.jpg" class="img-fluid" alt="Put text">
+                <h5>Filter 2D</h5>
+                <p align="justify">This block filters out the rgb value of the image. It is used to change the pixel
+                    intensity value of an image based on the surrounding pixel intensity values.</p>
+                <img src="images/filter-2D.png" class="img-fluid" alt="filter 2D">
+                <h5>Convert Color</h5>
+                <p align="justify">This block converts the colours of the picture from one color space to another. The
+                    most common color spaces that is used by image editors are RBG and CMYK.</p>
+                <img src="images/convert-color.png" class="img-fluid" alt="convert color">
+                <h5>Circle</h5>
+                <p align="justify">This block highlights specific size, colour, orientation of image. </p>
+                <img src="images/circle.png" class="img-fluid" alt="circle">
+                <h5>Threshold otsu</h5>
+                <p align="justify"> This block uses Otsu algorithm to choose the optimal threshold value. The Otsu
+                    algorithm automatically calculates the optimal threshold to separate the two peaks by maximizing the
+                    variance between the two types of pixels .</p>
+                <img src="images/threshold-otsu.png" class="img-fluid" alt="threshold otsu">
+                <h5>Bilatral filter</h5>
+                <p align="justify">This block allows you to remoe the noise from the image and helps smooth out the
+                    image.</p>
+                <img src="images/Bilateral-filter.png" class="img-fluid" alt="Bilateral filter">
+                <h5>Threshold trunc</h5>
+                <p align="justify">When pixel intensity becomes greater than threshold value it will be truncated to
+                    threshold. After this the pixel values should be set to the value which will be same as threshold
+                    value and other values will be the same.</p>
+                <img src="images/threshold-trunc.png" class="img-fluid" alt="threshold trunc">
+                <h5>Threshold adaptive mean</h5>
+                <p align="justify"> The threshold value is the mean of the neighbourhood area minus the constant C.</p>
+                <img src="images/threshold-adaptive-mean.png" class="img-fluid" alt="threshold adaptive mean">
+                <h5>Threshold to zero</h5>
+                <p align="justify">This block converts all pixels having values less than threshold, the pixel intensity
+                    for these is set to zero.</p>
+                <img src="images/threshold-to-zero.png" class="img-fluid" alt="threshold to zero">
+                <h5>Threshold triangle</h5>T
+                <p align="justify">This block uses Triangle algorithm to choose the optimal threshold value. The
+                    triangle algorithm checks the shape of the histogram.</p>
+                <img src="images/theshold-triangle.png" class="img-fluid" alt="threshold triangle">
+                <h5>Threshold binary inv</h5>
+                <p align="justify">In this case the intensity of pixels will be the inverse of THRESH_BINARY. That is 0
+                    when pixel value is less than threshold else it will be white.</p>
+                <img src="images/threshold-binary-inv.jpg" class="img-fluid" alt="threshold binary inv">
+                <h5>Dilate</h5>
+                <p align="Justify">This block allows you to increase the white region in the image. </p>
+                <img src="images/dilate.jpg" class="img-fluid" alt="dilate">
+                <h5>Arrowed liked</h5>
+                <p align="Justify">This block helps you add an arrow in the image. You can input where to place the
+                    arrow, the color of the arrow and the thickness as well.</p>
+                <img src="images/arrowed-liked.jpg" class="img-fluid" alt="arrowed liked ">
+                <h5>Canny</h5>
+                <p align="Justify">This block allows you to reduce noise in the image, find intensity gradient of the
+                    image.</p>
+                <img src="images/canny.jpg" class="img-fluid" alt="canny">
+                <h5>Erode</h5>
+                <p align="Justify">>This block allows you to erode away the boundaries of foreground object, the
+                    thickness or size of the foreground object decreases. </p>
+                <img src="images/erode.jpg" class="img-fluid" alt="erode">
+                <h5>Blank Image</h5>
+                <p align="Justify">This block allows you to create a blank image.</p>
+                <img src="images/blank-img.jpg" class="img-fluid" alt="Blank Image">
+                <h5>Crop</h5>
+                <p align="Justify">This block allows you to crop the image.</p>
+                <img src="images/crop.jpg" class="img-fluid" alt="crop">
+                <h5>Line</h5>
+                <p align="Justify">This block allows you to place a line in the image. You can input where to place the
+                    arrow, the color of the arrow and the thickness as well.</p>
+                <img src="images/line.jpg" class="img-fluid" alt="line">
+                <h5>Translate</h5>>
+                <p align="Justify">This block allows you to shift the image along the x and y axis. You can input the x
+                    axis and y axis value where you what to shift the image.</p>
+                <img src="images/translate.jpg" class="img-fluid" alt="translate">
+                <h5>Blur Median</h5>
+                <p align="Justify">This block allows you to blur the image using the median filter. The median filter
+                    run through each element of the signal (in this case the image) and replace each pixel with the
+                    median of its neighboring pixels</p>
+                <img src="images/blur-median.jpg" class="img-fluid" alt="blur median">
+                <h5>Threshold Adaptive Gaussian</h5>
+                <p align="Justify">This block use the threshold method to alter the image to black and white, it help in
+                    finding the noide in the image. </p>
+                <img src="images/threshold-adaptive-gaussian.jpg" class="img-fluid" alt="threshold adaptive Gaussian">
+                <h5>GreyScl Circle Detection</h5>
+                <p align="Justify">This block allows you to detect circles in the image.</p>
+                <img src="images/greyscl-cirlce-detection.jpg" class="img-fluid" alt="greyscl cirlce detection">
+                <h5>Bitwise op</h5>
+                <p align="Justify">This block allows you to use the bitwise operators AND, OR, NOT and XOR, and extract
+                    any part of the image.</p>
+                <img src="images/bitwise-op.png" class="img-fluid" alt="bitwise-op">
+                <h5>Merge</h5>
+                <p align="Justify">This block allows you to merge the bgr values of the image that were seperated by the
+                    split color block.</p>
+                <img src="images/merge.jpg" class="img-fluid" alt="merge">
+                <h5>Rotate</h5>
+                <p align="Justify">This block allows you to rotate the image. You can input thee angle that you want to
+                    rotate the image in.</p>
+                <img src="images/rotate.jpg" class="img-fluid" alt="rotate">
+                <h5>Split Color</h5>
+                <p align="Justify">This block allows you to split the image into different channels, it takes the rgb
+                    values of the image and seperates them.</p>
+                <img src="images/split-color.jpg" class="img-fluid" alt="split color">
+                <h5>Flip</h5>
+                <p align="Justify">This block helps you to flip the image across its x-axis or y-axis.</p>
+                <img src="images/flip.png" class="img-fluid" alt="flip">
+                <h4>Scikit learn</h4>
+                <p align="justify">Scikit-learn is a free software machine learning library for the Python programming
+                    language. In general, the learning problem considers a set of n samples of data and then tries to
+                    predict properties of unknown data.</p>
+                <h5>Logistic Model</h5>
+                <p align="justify">Logistic regression classifies binary and multiclass values and helps in predicting
+                    the results. This block takes data in the form of csv file, ... and give predictiona as result.</p>
+
+                <img src="images/logistic-model.jpg" class="img-fluid" alt="logistic model">
+                <h5>Regression Model</h5>
+                <p align="justify">Regression model predicts numerical value prediction linear equation. This block
+                    takes data in the form of csv file, ... and give predictiona as result.</p>
+
+                <img src="images/regression-model.jpg" class="img-fluid" alt="regression model">
+                <h5>Choose Data</h5>
+                <p align="justify">This block allows you to choose data, this includes a drop down menu where you can
+                    find built in data that are available in Paradox as well as choose different that of your choice.
+                </p>
+                <h5>Read CSV</h5>
+                <p align="justify">This block allows you to read the CSV files.</p>
+                <h5>Predict</h5>
+                <p align="justify">This block helps you predict the result from the data,trend model, input data that
+                    has been provided. </p>
+                <h5>Read Folder</h5>
+                <p align="justify">This block allows you to read the folder that you want to predict.</p>
             </div>
         </div>
     </div>
@@ -204,8 +586,3 @@
 </body>
 
 </html>
-=======
-<html>
-  <h1>hello world</h1>
-</html>
->>>>>>> 165cf5959afd265d60f0a49e6eff102a2c5e31ca

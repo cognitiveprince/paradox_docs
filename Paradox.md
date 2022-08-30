@@ -112,7 +112,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
  1. Code
     <p align="justify">This block provides you space where you can code normaly and get the result in the terminal at the bottom of the screen and assign the input and output of a variable.</p>
- 
+    
 ### System Block
  1. And
     <p align="justify">This block is Python's and operator which allows you to construct compound Boolean expressions that you can use to decide the course of action of your programs. It returns True if both statements are true</p>
@@ -197,11 +197,11 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. Matrix
     <p align="justify">This block allows you to create matrixes.</p>
 
-    ![matrix](images/matrix%20mult%20show%20matrix.jpg)
+    ![matrix](images/matrix-mult-show-matrix.jpg)
  1. Mult
     <p align="justify">This block allows you to multiply matrixes.</p>
 
-    ![matrix](images/matrix%20mult%20show%20matrix.jpg)
+    ![matrix](images/matrix-mult-show-matrix.jpg)
  1. nand
     <p align="justify">The 'NAND' gate is a combination of 'AND' gate followed by 'NOT' gate. helps to create boolean expression</p>
 
@@ -437,7 +437,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
       ![blur median](images/blur-median.jpg)
   1. Threshold Adaptive Gaussian
-      <p align="Justify">This block </p>
+      <p align="Justify">This block use the threshold method to alter the image to black and white, it help in finding the noide in the image. </p>
 
       ![threshold adaptive gaussian](images/threshold-adaptive-gaussian.jpg)
   1. GreyScl Circle Detection
@@ -466,6 +466,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
       ![slpit color](images/split-color.jpg)
   1. Flip
       <p align="Justify">This block helps you to flip the image across its x-axis or y-axis.</p>
+      
       ![flip](images/flip.png)
  ### Scikit learn
  <p align="justify">Scikit-learn is a free software machine learning library for the Python programming language. In general, the learning problem considers a set of n samples of data and then tries to predict properties of unknown data.</p>
