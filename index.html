@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Paradox Developer Doc</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Paradox</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Learn
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Documentation</a></li>
+                            <li><a class="dropdown-item" href="#">Getting Started</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/"
+                        class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Menu</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                        id="menu">
+                        <li class="nav-item">
+                            <a href="#Content" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Content</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Introduction" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-speedometer2"></i> <span
+                                    class="ms-1 d-none d-sm-inline">Introduction</span> </a>
+                        </li>
+                        <li>
+                            <a href="#Background" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span
+                                    class="ms-1 d-none d-sm-inline">Background</span></a>
+                        </li>
+                        <li>
+                            <a href="#Features" class="nav-link px-0 align-middle ">
+                                <i class="fs-4 bi-bootstrap"></i> <span
+                                    class="ms-1 d-none d-sm-inline">Features</span></a>
+                        </li>
+                        <li>
+                            <a href="#Blocks" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Blocks</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="Blocks" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#InbuiltBlocks" class="nav-link px-0"> <span
+                                            class="d-none d-sm-inline">Inbuilt
+                                            Blocks</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#SystemBlocks" class="nav-link px-0"> <span
+                                            class="d-none d-sm-inline">System
+                                            Blocks</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#OpenCVBlocks" class="nav-link px-0"> <span
+                                            class="d-none d-sm-inline">OpenCV
+                                            Blocks</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#ScikitLearnBlocks" class="nav-link px-0"> <span
+                                            class="d-none d-sm-inline">Scikit Learn
+                                            Blocks </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <div id="Content" class="col py-3">
+                <h1>Content</h1>
+                <p align="justify">This document details what you will experience with Paradox. It will cover everything
+                    you need to know before getting started with Paradox; from the interface, to the features.</p>
+                <h2 id="Introduction">Introduction</h2>
+                <p align="justify">Paradox is a first of its kind software. Paradox lets you use the more diagram-like,
+                    dataflow inspired structure to represent data processing-centric functionality. It is the next
+                    generation programming tool for everyone. Paradox is easily accessible and easy to use. It works in
+                    a diagram-like, data flow inspired structure to represent data processing-centric functionality. It
+                    uses nodes which runs codes and Paradox provides a simple framework to create them and an editor to
+                    use them.The Use cases range almost through the whole Python domain, from IoT, over machine
+                    learning, generative engineering, Raspberry Pi, web APIs, and much more. Anyone with basic Python
+                    programming language understanding can use Paradox with ease.</p>
+                <h2 id="Background">Background</h2>
+                <p align="justify">In computing, a process is the instance of a computer program that is being executed
+                    by one or many threads. It contains the program code and its activity. Depending on the operating
+                    system (OS), a process may be made up of multiple threads of execution instructions concurrentl. In
+                    Paradox the input-process-output concept is utilized on top of dataflow programming.</p>
+
+                <p align="justify">In programming we have sequential flow and data flow methods that helps determine the
+                    flow of the program. In sequential flow the function are performed in steps, an action must be
+                    triggered for the program to start; it is the traditional way of doing pragramming. In dataflow
+                    programming application are represented as a set of nodes (also called blocks) with input and/or
+                    output ports in them. It introduces a new programming paradigm that internally represents
+                    application as a directed graph, similarly to a dataflow diagram. Below we have the examples of
+                    sequential flow and dataflow progamming that can be done in Paradox.</p>
+                    <img src="images/sequential-flow.jpg" class="img-thumbnail" alt="Sequential Flow">
+                    <img src="images/data-flow-eg.jpg" class="img-fluid" alt="Data Flow">
+                <p align="justify">
+                    The key benefit of Dataflow programming is that, in dataflow, more than one instruction can be
+                    executed at once. Thus, if several instructions be- come fire able at the same time, they can be
+                    executed in parallel. This simple principle provides the potential for massive parallel execution at
+                    the instruction level.</p>
+
+                <p align="justify">
+                    DFP(Data Flow Programming) has enabled many visual programming languages that provide a more
+                    user-friendly interface so that even non-technical users can write programs. Such languages are also
+                    suited for rapid prototyping. Paradox utilizes dataflow programming in Json formating so it is easy
+                    to use and
+                    mostly errorfree.</p>
+                <h2 id="Features">Features of Paradox</h2>
+                <h3><a href=#Feature1>1. Create clear and pretty flows</a></h3>
+                <h3><a href=#Feature2>2. Built-In Interpreter</a></h3>
+                <h3><a href=#Feature3>3. Python3 by default</a></h3>
+                <h3><a href=#Feature4>4. Source Code Access</a></h3>
+                <h3><a href=#Feature5>5. Stylus support</a></h3>
+                <h3><a href=#Feature6>6. Work fast with parallel computing</a></h3>
+                <h3><a href=#Feature7>7. Multiple Themes</a></h3>
+                <h3><a href=#Feature8>8. Multiple Modes</a></h3>
+                <h3><a href=#Feature9>9. Multiple Extension</a></h3>
+                <h3 id="Feature1">1. Create clear and pretty flows</h3>
+                <p align="justify">Visual Scripting is a huge part of Paradox. Paradox uses blocks and nodes that help
+                    in creating clear and pretty flow. It makes it easy to follow, easy to script for rookie programmer
+                    and experienced programmers alike.</p>
+                <img src="images/feature-1.jpg" class="img-fluid" alt="Create clear and pretty flows ">
+                <h3 id="Feature2">2. Built-In Interpreter</h3>
+                <p align="justify">Paradox uses the built-in REPL through which you can have access to the backend
+                    session and you can use its whole API as well as access your nodes. Any modifications like
+                    creating/renaming/deleting new scripts, will reactively be processed by the frontend automatically,
+                    so you can really do everything from the console. terminal ss</p>
+                <h3 id="Feature3">3. Python3 by default</h3>
+                <p align="justify">Paradox has almost every python inbuilt functions integrated in it, which you can
+                    access instantly with right click of your mouse.</p>
+                <h3 id="Feature4">4. Source Code Access</h3>
+                <p align="justify">In Paradox you can access the Source code implementation of the nodes you use inside
+                    the editor. You can view and overide the source code as you and the result of the change change can
+                    be viewed in real time. </p>
+                    <img src="images/source-code.jpg" class="img-fluid" alt="Source Code Access">
+                <h3 id="Feature5">5. Stylus support</h3>
+                <p align="justify">Paradox supports stylus, you can write notes into your flows by hand using a stylus
+                    pen. One effective use of this feature is that it supports clarity and adds a whole new dimension to
+                    your visual flows.</p>
+                <h3 id="Feature6">6. Work fast with parallel computing</h3>
+                <p align="justify">Your work feels satisfying when your work get seem less and fast. Through simple GUI
+                    and tools to work with for developer, Programming would be more easier , simpler to code, understand
+                    and build an incredible product.</p>
+                <h3 id="Feature7">7. Multiple Themes</h3>
+                <p align="justify">There are many themes available in paradox, you can change them to which ever you
+                    like. Paradox consists of multiple themes that you can work with, themes like toy, tron, ghost,
+                    blender, simple, ueli, pure dark, colorful dark, industrial, pure light and colorful light.</p>
+                    <img src="images/toy.jpg" class="img-fluid" alt="Toy">
+                    <img src="images/tron.jpg" class="img-fluid" alt="Tron">
+                    <img src="images/ghost.jpg" class="img-fluid" alt="Ghost">
+                    <img src="images/blender.jpg" class="img-fluid" alt="Blender">
+                    <img src="images/simple.jpg" class="img-fluid" alt="Simple">
+                    <img src="images/ueli.jpg" class="img-fluid" alt="Ueli">
+                    <img src="images/pure-dark.jpg" class="img-fluid" alt="Pure Dark">
+                    <img src="images/colourful-dark.jpg" class="img-fluid" alt="Colorful Dark">
+                    <img src="images/industrial.jpg" class="img-fluid" alt="Industrial">
+                    <img src="images/pure-light.jpg" class="img-fluid" alt="Pure Light">
+                    <img src="images/colourful-light.jpg" class="img-fluid" alt="Colorful Light">
+                <h3 id="Feature8">8. Multiple Modes</h3>
+                <p align="justify">Paradox consists of two modes that you can work with, data-flow and exec-flow.
+                    Data-flow is the default mode. Anyone who want to use Paradox in any mode they like is able to do
+                    so. description data flow parallel computing exec-flow sequential computing</p>
+                <h3 id="Feature9">9. Multiple Extension</h3>
+                <p align="justify">Paradox has multiple extensions for you to use, like nodes, numpy, openCV, Pandas,
+                    scikit_learn. These extension provides blocks to complete you're overal code.</p>
+                    <img src="images/extensions.jpg" class="img-fluid" alt="Extensions">    
+
+                <h2>Blocks</h2>
+                <h3 id="InbuiltBlocks">Inbuilt Block</h3>
+                <h3 id="SystemBlocks">Sustem Blocks</h3>
+                <h3 id="OpenCVBlocks">OpenCV Blocks</h3>
+                <h3 id="ScikitLearnBlocks">Scikit Learn Blocks</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

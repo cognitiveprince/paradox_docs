@@ -1,5 +1,5 @@
 # Getting Started
-This scetion will cove everything you will need to know in order to getstarted with Paradox.
+This scetion will cover everything you will need to know in order to getstarted with Paradox.
 
 ## Paradox Interface
 1. Flow themes

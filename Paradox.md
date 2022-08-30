@@ -21,13 +21,10 @@
 The key benefit of Dataflow programming is that, in dataflow, more than one instruction can be executed at once. Thus, if several instructions be- come fire able at the same time, they can be executed in parallel. This simple principle provides the potential for massive parallel execution at the instruction level.</p>
 
 <p align="justify">
-DFP(Data Flow Programming) has enabled many visual programming languages that provide a more user-friendly interface so that even non-technical users can write programs. Such languages are also suited for rapid prototyping.</p>
-
-<p align="justify">Paradox utilizes dataflow programming in Json formating so it is easy to use and mostly errorfree.</p>
+DFP(Data Flow Programming) has enabled many visual programming languages that provide a more user-friendly interface so that even non-technical users can write programs. Such languages are also suited for rapid prototyping. Paradox utilizes dataflow programming in Json formating so it is easy to use and mostly errorfree.</p>
 
 ## Features of Paradox
 1. ### [Create clear and pretty flows](#Create-clear-and-pretty-flows)
-
 1. ### [Built-In Interpreter](#Built-In-Interpreter)
 1. ### [Python3 by default](#Python3-by-default)
 1. ### [Source Code Access](#Source-Code-Access)
@@ -42,7 +39,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
 ![Feature](images/feature-1.jpg)
 ### 2. Built-In Interpreter 
-<p align="justify">Paradox uses the built-in REPL through which you can have access to the backend session and you can use its whole API as well as access your nodes. Any modifications like creating/renaming/deleting new scripts, will reactively be processed by the frontend automatically, so you can really do everything from the console. terminal ss</p>
+<p align="justify">Paradox uses the built-in REPL through which you can have access to the backend session and you can use its whole API as well as access your nodes. Any modifications like creating/renaming/deleting new scripts, will reactively be processed by the frontend automatically, so you can really do everything from the console.</p>
 
 ### 3. Python3 by default
 <p align="justify">Paradox has almost every python inbuilt functions integrated in it, which you can access instantly with right click of your mouse.</p>
@@ -89,6 +86,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 ### 9. Multiple Extension
 <p align="justify">Paradox has multiple extensions for you to use, like nodes, numpy, openCV, Pandas, scikit_learn. These extension provides blocks to complete you're overal code.</p>
 
+![Extention](images/extensions.jpg)
 ## Block
 <p align="justify">Paradox contains every Python feature in the form of blocks. These blocks are appear by right clicking the mouse. The name of each blocks can be changed and customized as you want.</p>
 
