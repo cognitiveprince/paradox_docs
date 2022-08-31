@@ -1,9 +1,9 @@
 # Getting Started
-This scetion will cover everything you will need to know in order to getstarted with Paradox.
+This section will cover everything you will need to know in order to getstarted with Paradox.
 
 ## Paradox Interface
 1. Flow themes
-    <p align="justify">Paradox boasts a number of themes that you can choose from like Tron. The steps below will guide you to finding the themes.
+    <p align="justify">Paradox boasts a number of themes that you can choose from like Tron, Toy, Ghost, Blender, Simple, Ueli, Pure Dark, Coorful Dark, Industrial, Colorful Ligth, Pure Light. The steps below will guide you to finding the themes.
 
     Step 1. Go to the View option on the menu bar.
 
@@ -24,7 +24,7 @@ This scetion will cover everything you will need to know in order to getstarted 
     Step 1. Go to the bottom left of the screen, write the name of the micro in the text field.
     
     Step 2. Click on the Micro button. </p>
-1. Creating Micro's
+1. Creating Micros
     <p align="justify">The micro script consists of two blocks input and output, you can follow the steps below to create your own micro script.
     
     Step 1. Right click on the input block, a menu appears click on the add parameter option, two parameter data and exec will appear choose which ever suits your script the best. 
@@ -208,43 +208,7 @@ This scetion will cover everything you will need to know in order to getstarted 
     Step 6. You will get the output in the print or result block.
 
 ## Inbuilt block
-1. Slider
 
-    Step 1. Take the val blocks for the inputs.
-
-    Step 2. Take the slider block.
-
-    Step 3. Take the result block.
-
-    Step 4. Connect the blocks.
-
-    Step 5. Enter the values in the val block and press enter.
-
-    Step 6.Move the slider to get the desired value, the round option on the block gives round values.
-1. Link in and Link out
-
-    Step 1. Take the val blocks for the inputs.
-
-    Step 2. Take the link in block, click on the block, a menu will appear click on the copy id option.
-
-    Step 3. Take the link out block, click on the block, a menu will appear click on the link to ID option a text box will pop-up paste the id that you copied from the link in block earlier here.
-
-    Step 4. Connect the blocks.
-
-    Step 5. You will find that the link out block broadcast the output from the script that it is linked to.
-1. FOR
-
-    Step 1. Take the button block to trigger the action.
-
-    Step 2. Take the For or For each block. 
-
-    Step 3. Take the print or val block.
-
-    Step 4. Connect the blocks.
-
-    Step 5. Enter the values you want to print in a loop in the val or print block and press enter.
-
-    Step 6. You will get the output in the terminal at the bottom of the screen.
 1. Set Var
 
     Step 1. Take the button block to trigger the action.
@@ -282,6 +246,46 @@ This scetion will cover everything you will need to know in order to getstarted 
     Step 5. Connect the code block with result block.
 
     Step 6. You will see the result in the result block.
+
+## System Blocks
+
+1. Slider
+
+    Step 1. Take the val blocks for the inputs.
+
+    Step 2. Take the slider block.
+
+    Step 3. Take the result block.
+
+    Step 4. Connect the blocks.
+
+    Step 5. Enter the values in the val block and press enter.
+
+    Step 6.Move the slider to get the desired value, the round option on the block gives round values.
+1. Link in and Link out
+
+    Step 1. Take the val blocks for the inputs.
+
+    Step 2. Take the link in block, click on the block, a menu will appear click on the copy id option.
+
+    Step 3. Take the link out block, click on the block, a menu will appear click on the link to ID option a text box will pop-up paste the id that you copied from the link in block earlier here.
+
+    Step 4. Connect the blocks.
+
+    Step 5. You will find that the link out block broadcast the output from the script that it is linked to.
+1. FOR
+
+    Step 1. Take the button block to trigger the action.
+
+    Step 2. Take the For or For each block. 
+
+    Step 3. Take the print or val block.
+
+    Step 4. Connect the blocks.
+
+    Step 5. Enter the values you want to print in a loop in the val or print block and press enter.
+
+    Step 6. You will get the output in the terminal at the bottom of the screen.
 
 1. Clock
 
@@ -526,7 +530,7 @@ This scetion will cover everything you will need to know in order to getstarted 
 
     Step 5. The transpose value of the matrix  will be printed in the output block.
 
-OpenCV
+## OpenCV Blocks
 1. Read Image
 
     Step 1. Take the read image block.
@@ -572,9 +576,9 @@ OpenCV
 
     Step 1. Take the read image block click on the select button and select the image you want to read.
 
-    Step 2. Take the resize block and connect it to the read image block.
+    Step 2. Take the scale block and connect it to the read image block.
 
-    Step 3. Enter the value you want. 
+    Step 3. Enter the scl value you want. 
 
     Step 4. The image will be displayed in the scale block. 
 1. Save image
@@ -775,7 +779,7 @@ OpenCV
 
     Step 2. Take the Crop block and connect it to the read image block.
 
-    Step 3. Enter the slice x, slice y values of the arrow.
+    Step 3. Enter the slice x, slice y values.
 
     Step 4. The cropped image will be displayed in the Crop block.
 1. Line
@@ -784,7 +788,7 @@ OpenCV
 
     Step 2. Take the line block and connect it to the read image block.
 
-    Step 3. Enter the pt1, pt2, color, strokeW values of the arrow.
+    Step 3. Enter the pt1, pt2, color, strokeW values.
 
     Step 4. The image with the line will be displayed in the line block.
 1. Translate
@@ -885,7 +889,7 @@ OpenCV
 
     Step 4. The flipped image will be displayed in the flip block.
 
-Scikit learn
+## Scikit learn Blocks
 
 1. Logistic Model
 
@@ -911,7 +915,7 @@ Scikit learn
 
     Step 2. Take the Predict block connect it with the regression or logistic model which needs to be connected with the choose data block. 
 
-    Step 4. Connect the predict block with the result block where the result will show up.
+    Step 3. Connect the predict block with the result block where the result will show up.
 1. Read Folder
 
     Step 1. Take the read folder block.
