@@ -247,7 +247,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. show matrix
     <p align="justify">This block displays the matrix.</p>
 
-    ![show matrix](images/matrix%20mult%20show%20matrix.jpg)
+    ![show matrix](images/matrix-mult-show-matrix.jpg)
  1. slider
      <p align="justify">This block allows you to produce dynamic a value with the help of a sliding indicator.</p>
 
