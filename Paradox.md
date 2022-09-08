@@ -7,10 +7,9 @@
 
 ## Background
 
-<p align="justify">In computing, a process is the instance of a computer program that is being executed by one or many threads. It contains the program code and its activity. Depending on the operating system (OS), a process may be made up of multiple threads of execution instructions concurrentl. In Paradox the input-process-output concept is utilized on top of dataflow programming.</p>
+<p align="justify">In computing, a process is the instance of a computer program that is being executed by one or many threads. It contains the program code and its activity. Depending on the operating system (OS), a process may be made up of multiple threads of execution instructions concurrent. In Paradox the input-process-output concept is utilized on top of dataflow programming.</p>
 
 <p align="justify">In programming we have sequential flow and data flow methods that helps determine the flow of the program. In sequential flow the function are performed in steps, an action must be triggered for the program to start; it is the traditional way of doing pragramming. In dataflow programming application are represented as a set of nodes (also called blocks) with input and/or output ports in them. It introduces a new programming paradigm that internally represents application as a directed graph, similarly to a dataflow diagram. Below we have the examples of sequential flow and dataflow progamming that can be done in Paradox.</p>
-<!---->
 
 ![sequential flow programming](images/sequential-flow.jpg) Sequential Flow
 
@@ -18,7 +17,7 @@
 
 
 <p align="justify">
-The key benefit of Dataflow programming is that, in dataflow, more than one instruction can be executed at once. Thus, if several instructions be- come fire able at the same time, they can be executed in parallel. This simple principle provides the potential for massive parallel execution at the instruction level.</p>
+The key benefit of Dataflow programming is that, in dataflow, more than one instruction can be executed at once. Thus, if several instructions become fireable at the same time, they can be executed in parallel. This simple principle provides the potential for massive parallel execution at the instruction level.</p>
 
 <p align="justify">
 DFP(Data Flow Programming) has enabled many visual programming languages that provide a more user-friendly interface so that even non-technical users can write programs. Such languages are also suited for rapid prototyping. Paradox utilizes dataflow programming in Json formating so it is easy to use and mostly errorfree.</p>
@@ -45,7 +44,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 <p align="justify">Paradox has almost every python inbuilt functions integrated in it, which you can access instantly with right click of your mouse.</p>
 
 ### 4. Source Code Access
-<p align="justify">In Paradox you can access the Source code implementation of the nodes you use inside the editor. You can view and overide the source code as you and the result of the change change can be viewed in real time. </p>
+<p align="justify">In Paradox you can access the Source code implementation of the nodes you use inside the editor. You can view and override the source code as you and the result of the change change can be viewed in real time. </p>
 
 ![Source code access](images/source-code.jpg)
 
@@ -115,11 +114,11 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
     
 ### System Block
  1. And
-    <p align="justify">This block is Python's and operator which allows you to construct compound Boolean expressions that you can use to decide the course of action of your programs. It returns True if both statements are true</p>
+    <p align="justify">This block is Python's and operator which allows you to construct compound Boolean expressions that you can use to decide the course of action of your programs. It returns True if both statements are true.</p>
 
     ![and](images/and.jpg)
  1. IF ELSE
-    <p align="justify">This block allows you to work with an if else condition where the statement executes only if the test condition is True</p>
+    <p align="justify">This block allows you to work with an if else condition where the statement executes only if the test condition is True.</p>
 
     ![if else](images/if-else.jpg)
  1. Button
@@ -155,7 +154,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. Eval
     <p align="justify">This block allows you to evaluate arbitrary Python expressions from a string-based or compiled-code-based input.</p>
  1. For
-    <p align="justify">This block helps create for loop for iterating over a sequence. For loop executes a block of code until the expression returns false</p>
+    <p align="justify">This block helps create for loop for iterating over a sequence. For loop executes a block of code until the expression returns false.</p>
 
     ![for](images/for-button.jpg)
  1. For Each
@@ -168,7 +167,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. ID Matrix
     <p align="justify">This block allows you to create an identity matrix.</p>
  1. Imag 
-    <p align="justify">This block allows you to extract the imaginary part of the matrixes</p>
+    <p align="justify">This block allows you to extract the imaginary part of the matrixes.</p>
 
     ![imag](images/imag.png)
 
@@ -177,7 +176,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
     ![inner](images/inner.jpg)
  1. Inverse
-    <p align="justify">This block helps you to find inverse of matrix</p>
+    <p align="justify">This block helps you to find inverse of matrix.</p>
 
     ![inverse](images/inverse.jpg)
  1. Kron
@@ -187,7 +186,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
     ![link in](images/link-in.jpg)
  1. link OUT
-    <p align="justify">This block listens the value broadcasted by the link IN block. You need to copy the link from link in and paste it here for the values to be linked together and you will be able to listen to the bradcasted value.</p>
+    <p align="justify">This block listens the value broadcasted by the link IN block. You need to copy the link from link in and paste it here for the values to be linked together and you will be able to listen in to the bradcasted value.</p>
 
     ![link out](images/link-out.png)
  1. log
@@ -203,11 +202,11 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
     ![matrix](images/matrix-mult-show-matrix.jpg)
  1. nand
-    <p align="justify">The 'NAND' gate is a combination of 'AND' gate followed by 'NOT' gate. helps to create boolean expression</p>
+    <p align="justify">The 'NAND' gate is a combination of 'AND' gate followed by 'NOT' gate. helps to create boolean expression.</p>
 
     ![nand](images/nand.jpg)
  1. nor
-    <p align="justify">The NOR gate (negated OR) gives an output of 1 if both inputs are 0,it gives 0 otherwise. </p>
+    <p align="justify">The NOR gate (negated OR) gives an output of 1 if both inputs are 0, it gives 0 otherwise. </p>
 
     ![nor](images/nor.jpg)
  1. not
@@ -219,11 +218,11 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  1. Ones
     <p align="justify">This block returns a new array of given shape and data type, where the element's value is set to 1. </p>
  1. or
-    <p align="justify">This block helps create boolean expression that returns True if one of the statements is true</p>
+    <p align="justify">This block helps create boolean expression that returns True if one of the statements is true.</p>
 
     ![or](images/or.jpg)
  1. Outer
-    <p align="justify">This block allows you to calculate the inner product of two matrixes</p>
+    <p align="justify">This block allows you to calculate the inner product of two matrixes.</p>
 
     ![outer](images/outer.jpg)
  1. Power
@@ -301,7 +300,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  <p align="justify">Log is the section at the bottom of Paradox, you can get to this interface by pullig the bottom tab upward; this consists of global and error sections. Global shows the variables in the script if assigned and errors as the name suggests shows the error but with paradox errors are very unlikely to happen.</p>
 
  ## Source Code
- <p align="justify">Paradox uses diagramatic scripting but you can also view the source for the script in each of the node and blocks, these source code are editable. You can make what ever changes you wish to make with-in the blocks. If the change is made in any particular block that change doesnot effect other blocks.You can change the functionality of the block by overiding the code.</p>
+ <p align="justify">Paradox uses diagrammatic scripting but you can also view the source for the script in each of the node and blocks, these source code are editable. You can make what ever changes you wish to make with-in the blocks. If the change is made in any particular block that change doesnot effect other blocks.You can change the functionality of the block by overiding the code.</p>
 
  ![source code](images/source-code.jpg)
 
@@ -328,7 +327,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
 
       ![adjust brigthness](images/adjust-brightness.png)
   1. Blur
-      <p align="justify">This block allows you to blur the image. size, saturation of blur</p>
+      <p align="justify">This block allows you to blur the image.</p>
 
       ![blur](images/blur.jpg)
   1. Resize
@@ -379,7 +378,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
   1. Haris corner detection 
       <p align="justify">The corners of an image are basically identified as the regions in which there are variations in large intensity of the gradient in all possible dimensions and directions. this block uses haris corner detection method to extract the corners from the input image and to extract features from the input image.   </p>
   1. Threshold adaptive mean
-      <p align="justify"> The threshold value is the mean of the neighbourhood area minus the constant C</p>
+      <p align="justify"> The threshold value is the mean of the neighbourhood area minus the constant C, this block uses that to edit the image.</p>
 
       ![threshold adaptive mean](images/threshold-adaptive-mean.png)
   1. Image blend   
@@ -433,7 +432,7 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
   1. Webcam Feed
       <p align="Justify">This block allows you to access your webcam and captures the image/video from your webcam.</p>
   1. Blur median
-      <p align="Justify">This block allows you to blur the image using the median filter. The median filter run through each element of the signal (in this case the image) and replace each pixel with the median of its neighboring pixels</p>
+      <p align="Justify">This block allows you to blur the image using the median filter. The median filter run through each element of the signal (in this case the image) and replace each pixel with the median of its neighboring pixels.</p>
 
       ![blur median](images/blur-median.jpg)
   1. Threshold Adaptive Gaussian
@@ -472,11 +471,11 @@ DFP(Data Flow Programming) has enabled many visual programming languages that pr
  <p align="justify">Scikit-learn is a free software machine learning library for the Python programming language. In general, the learning problem considers a set of n samples of data and then tries to predict properties of unknown data.</p>
 
  1. Logistic Model
-      <p align="justify">Logistic regression classifies binary and multiclass values and helps in predicting the results. This block takes data in the form of csv file, ... and give predictiona as result.</p>
+      <p align="justify">Logistic regression classifies binary and multiclass values and helps in predicting the results. This block takes data in the form of csv file, chart, etc. and give prediction as result.</p>
 
       ![logistic model](images/logistic-model.jpg)
  1. Regression Model
-      <p align="justify">Regression model predicts numerical value prediction linear equation. This block takes data in the form of csv file, ... and give predictiona as result.</p>
+      <p align="justify">Regression model predicts numerical value prediction linear equation. This block takes data in the form of csv file, chart, etc. and give prediction as result.</p>
 
       ![Regression-model](images/regression-model.jpg)
  1. Choose Data
